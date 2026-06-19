@@ -22,6 +22,7 @@ This site exists to provide a clear public-facing organizational surface for:
 - `about.html` - mission and operating stance
 - `branches.html` - explanation of FMI, instance001, and Let's Rethink AI
 - `projects.html` - selected active project lanes
+- `independent-convergence.html` - selective evidence page for parallel public development
 - `stewardship.html` - funding, independence, and stewardship stance
 - `contact.html` - public contact and support information
 - `app-support.html` - app store oriented support and contact page
