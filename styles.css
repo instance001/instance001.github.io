@@ -377,6 +377,10 @@ a {
   gap: 1.2rem;
 }
 
+.convergence-page .page {
+  display: block;
+}
+
 .prose h2 {
   margin-top: 0;
 }
@@ -510,5 +514,20 @@ code {
   .hero h1,
   .page-hero h1 {
     max-width: none;
+  }
+
+  .convergence-page .page-hero,
+  .convergence-page .page-section,
+  .convergence-page .footer {
+    animation: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .convergence-page .convergence-card,
+  .convergence-page .stack-card,
+  .convergence-page .meta-item {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
 }
