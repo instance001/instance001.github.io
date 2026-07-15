@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatty-mini Privacy Policy | Fractal Media Infrastructure</title>
+  <meta name="description" content="Privacy policy for Chatty-mini, published by Fractal Media Infrastructure.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="../index.html">
+        <img class="brand-mark" src="../assets/fmi-mark.png" alt="FMI brand mark">
+        <span class="brand-text">Fractal Media Infrastructure</span>
+      </a>
+      <nav class="topnav" aria-label="Primary">
+        <a href="../about.html">About</a>
+        <a href="../branches.html">Branches</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../independent-convergence.html">Convergence</a>
+        <a href="../stewardship.html">Stewardship</a>
+        <a href="../google-play.html">Google Play</a>
+        <a href="../contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="page-hero">
+        <p class="eyebrow">Privacy policy</p>
+        <h1>Chatty-mini Privacy Policy</h1>
+        <p>Effective date: July 15, 2026</p>
+        <p>
+          Chatty-mini is published by Fractal Media Infrastructure (FMI). It is a local-first Android chat application for user-supplied GGUF models, with optional user-configured cloud model connections. It does not require an account and is not built around advertising, analytics, tracking, or the sale of user data.
+        </p>
+      </section>
+
+      <section class="page-section prose">
+        <h2>Summary</h2>
+        <ul>
+          <li>Local GGUF conversations and app files remain on the device.</li>
+          <li>Cloud use is optional and occurs only when the user selects a configured cloud model.</li>
+          <li>Cloud prompts and relevant Chatty-mini context are sent directly to the selected provider or custom endpoint.</li>
+          <li>FMI does not operate an intermediary inference server for Chatty-mini.</li>
+          <li>The app has no FMI account system, ads, in-app purchases, or analytics SDK.</li>
+        </ul>
+      </section>
+
+      <section class="page-section prose">
+        <h2>Data stored locally</h2>
+        <p>
+          Chatty-mini stores data needed for app operation in private app storage. Depending on the features used, this can include imported GGUF model files, chat history, saved character prompts, summaries and context, sandbox files, session or cold logs, model configuration, and app settings.
+        </p>
+        <p>
+          This information is not uploaded to FMI. Android normally prevents users and other apps from directly browsing the private app directory. Sandbox files are copied outside private storage only when the user explicitly exports a file through Android's document picker.
+        </p>
+      </section>
+
+      <section class="page-section prose">
+        <h2>Optional cloud model connections</h2>
+        <p>
+          Users may configure OpenAI, Anthropic, Google Gemini, xAI, DeepSeek, or a custom OpenAI-compatible endpoint. No cloud model is required, and Chatty-mini does not automatically fall back from local inference to a cloud service.
+        </p>
+        <p>
+          When a cloud model is selected and the user sends a message, Chatty-mini sends the prompt and the relevant conversation, character, summary, or sandbox context needed for that request directly to the selected endpoint. The selected provider receives and processes that content under its own terms and privacy policy. Network services may also receive ordinary connection information such as the user's IP address.
+        </p>
+        <p>
+          Users should avoid sending sensitive information to a cloud provider unless they understand and accept that provider's practices. A custom endpoint is controlled by its operator, not FMI.
+        </p>
+      </section>
+
+      <section class="page-section prose">
+        <h2>API keys and security</h2>
+        <p>
+          Cloud API keys are stored locally using encryption backed by Android Keystore. Requests are sent over HTTPS when the configured endpoint uses HTTPS. API keys are supplied to the selected provider to authenticate requests and are not sent to FMI.
+        </p>
+        <p>
+          Users who configure a custom endpoint are responsible for choosing a trusted HTTPS service. FMI cannot control the security, retention, or processing practices of third-party providers or user-specified endpoints.
+        </p>
+      </section>
+
+      <section class="page-section prose">
+        <h2>Data collection, analytics, and sharing</h2>
+        <p>
+          FMI does not collect Chatty-mini prompts, chats, local files, API keys, model files, diagnostics, advertising identifiers, or usage analytics through the app. FMI does not sell user data or share it for advertising or profiling.
+        </p>
+        <p>
+          The only external disclosure initiated by normal app use is the user-directed transfer to a selected cloud provider or custom endpoint described above, plus files the user intentionally exports through Android's system interface.
+        </p>
+      </section>
+
+      <section class="page-section prose">
+        <h2>Permissions and system interfaces</h2>
+        <p>
+          Chatty-mini declares internet access so optional cloud requests can work. Local model import and sandbox export use Android's system document picker, which lets the user choose specific files or destinations without granting the app broad access to shared storage.
+        </p>
+      </section>
+
+      <section class="page-section prose" id="retention-deletion">
+        <h2>Retention and deletion</h2>
+        <p>
+          FMI does not retain user content on an FMI server because Chatty-mini does not send that content to FMI. Local data remains on the device until the user deletes it in the app, clears Chatty-mini's app data through Android settings, or uninstalls the app. Uninstalling or clearing app data generally removes private app files, including imported models and unexported sandbox files.
+        </p>
+        <p>
+          Data sent to a cloud provider is subject to that provider's retention and deletion practices. Users must contact or use the controls supplied by that provider for requests concerning provider-held data. Chatty-mini does not create FMI user accounts, so there is no FMI app account to delete.
+        </p>
+      </section>
+
+      <section class="page-section prose">
+        <h2>Children</h2>
+        <p>
+          Chatty-mini is a general-purpose model interface and is not specifically directed to children. Parents and guardians should review the app, any imported model, and any configured cloud provider before allowing a child to use it.
+        </p>
+      </section>
+
+      <section class="page-section prose">
+        <h2>Changes to this policy</h2>
+        <p>
+          If Chatty-mini changes in a way that affects privacy expectations, this policy will be updated before or alongside the relevant release. The effective date at the top of this page identifies the current version.
+        </p>
+      </section>
+
+      <section class="page-section meta-panel">
+        <div class="meta-item">
+          <p class="metric-label">Publisher</p>
+          <p class="metric-value">Fractal Media Infrastructure (FMI)</p>
+        </div>
+        <div class="meta-item">
+          <p class="metric-label">App</p>
+          <p class="metric-value">Chatty-mini</p>
+        </div>
+        <div class="meta-item">
+          <p class="metric-label">Package ID</p>
+          <p class="metric-value"><code>io.instance001.chatmini</code></p>
+        </div>
+        <div class="meta-item">
+          <p class="metric-label">Privacy contact</p>
+          <p class="metric-value"><a href="mailto:fractalmediainfrastructure@gmail.com">fractalmediainfrastructure@gmail.com</a></p>
+        </div>
+      </section>
+
+      <section class="page-section prose">
+        <h2>Related surfaces</h2>
+        <p class="card-links">
+          <a href="https://github.com/instance001/chatty-mini">Source code</a>
+          <a href="../google-play.html">Google Play releases</a>
+          <a href="../app-support.html">App support</a>
+          <a href="../contact.html">General contact</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Fractal Media Infrastructure</p>
+      <p>Independent public-interest AI research, tooling, and media.</p>
+      <p>ABN 37 986 304 856</p>
+    </footer>
+  </div>
+</body>
+</html>
