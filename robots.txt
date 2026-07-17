@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://instance001.github.io/sitemap.xml

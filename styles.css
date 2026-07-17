@@ -440,6 +440,80 @@ a {
   font-weight: 600;
 }
 
+.repo-directory-copy {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.repo-directory-copy p {
+  color: var(--muted);
+  line-height: 1.72;
+  margin: 0;
+}
+
+.repo-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.repo-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.repo-card {
+  background: var(--surface-strong);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 1.2rem;
+}
+
+.repo-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: start;
+  margin-bottom: 0.8rem;
+}
+
+.repo-card h3 {
+  font-family: "Fraunces", serif;
+  font-size: 1.4rem;
+  line-height: 1.08;
+  margin: 0;
+}
+
+.repo-card p {
+  color: var(--muted);
+  line-height: 1.72;
+  margin: 0;
+}
+
+.repo-card .card-links {
+  margin-top: 1rem !important;
+}
+
+.repo-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}
+
+.repo-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
 .footer {
   border-radius: var(--radius-lg);
   padding: 1.4rem 1.7rem;
@@ -476,6 +550,8 @@ code {
   .card-grid,
   .signal-grid,
   .project-grid,
+  .repo-summary-grid,
+  .repo-directory-grid,
   .stewardship-grid,
   .evidence-grid,
   .evidence-levels,
