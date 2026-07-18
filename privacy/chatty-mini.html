@@ -37,7 +37,7 @@
       <section class="page-hero">
         <p class="eyebrow">Privacy policy</p>
         <h1>Chatty-mini Privacy Policy</h1>
-        <p>Effective date: July 15, 2026</p>
+        <p>Effective date: July 17, 2026</p>
         <p>
           Chatty-mini is published by Fractal Media Infrastructure (FMI). It is a local-first Android chat application for user-supplied GGUF models, with optional user-configured cloud model connections. It does not require an account and is not built around advertising, analytics, tracking, or the sale of user data.
         </p>
@@ -50,6 +50,7 @@
           <li>Cloud use is optional and occurs only when the user selects a configured cloud model.</li>
           <li>Cloud prompts and relevant Chatty-mini context are sent directly to the selected provider or custom endpoint.</li>
           <li>FMI does not operate an intermediary inference server for Chatty-mini.</li>
+          <li>AI content reports are sent to FMI only when the user explicitly reports an assistant response in-app.</li>
           <li>The app has no FMI account system, ads, in-app purchases, or analytics SDK.</li>
         </ul>
       </section>
@@ -90,10 +91,26 @@
       <section class="page-section prose">
         <h2>Data collection, analytics, and sharing</h2>
         <p>
-          FMI does not collect Chatty-mini prompts, chats, local files, API keys, model files, diagnostics, advertising identifiers, or usage analytics through the app. FMI does not sell user data or share it for advertising or profiling.
+          FMI does not collect Chatty-mini prompts, chats, local files, API keys, model files, diagnostics, advertising identifiers, or usage analytics through ordinary app use. FMI does not sell user data or share it for advertising or profiling.
         </p>
         <p>
           The only external disclosure initiated by normal app use is the user-directed transfer to a selected cloud provider or custom endpoint described above, plus files the user intentionally exports through Android's system interface.
+        </p>
+      </section>
+
+      <section class="page-section prose">
+        <h2>AI content reports</h2>
+        <p>
+          Chatty-mini includes an in-app reporting feature for assistant-generated responses. Reporting is available only when the user opens an assistant message menu, chooses to report that response, reviews the report preview, selects a reason, and presses Send report. Normal chats are never sent to Fractal Media Infrastructure. Only the information shown in the in-app report preview is transmitted when the user presses Send report.
+        </p>
+        <p>
+          A report may include the selected assistant response, an optional immediately preceding user prompt if the user chooses to include it, the selected report reason, an optional user-written note, local/cloud lane, provider and model label, app version, timestamp, and a random report ID. Reports are sent to Fractal Media Infrastructure for safety review.
+        </p>
+        <p>
+          Reports do not include API keys or credentials, device identifiers, advertising identifiers, the saved user name, the full transcript, unrelated messages, Hot Context, rolling Summary, sandbox files or filenames, imported documents, logs, or background-collected information. Opening the report sheet does not transmit anything, and the app does not perform automatic reporting, analytics reporting, or background retries.
+        </p>
+        <p>
+          If sending fails or the device is offline, the user may explicitly save one unsent report draft in private app storage. An unsent draft is labelled as unsent and remains on the device until the user explicitly sends or deletes it.
         </p>
       </section>
 
@@ -107,10 +124,13 @@
       <section class="page-section prose" id="retention-deletion">
         <h2>Retention and deletion</h2>
         <p>
-          FMI does not retain user content on an FMI server because Chatty-mini does not send that content to FMI. Local data remains on the device until the user deletes it in the app, clears Chatty-mini's app data through Android settings, or uninstalls the app. Uninstalling or clearing app data generally removes private app files, including imported models and unexported sandbox files.
+          Local data remains on the device until the user deletes it in the app, clears Chatty-mini's app data through Android settings, or uninstalls the app. Uninstalling or clearing app data generally removes private app files, including imported models, unsent report drafts, and unexported sandbox files.
         </p>
         <p>
           Data sent to a cloud provider is subject to that provider's retention and deletion practices. Users must contact or use the controls supplied by that provider for requests concerning provider-held data. Chatty-mini does not create FMI user accounts, so there is no FMI app account to delete.
+        </p>
+        <p>
+          User-submitted AI content reports are forwarded to an FMI-controlled mailbox for safety review. To request deletion of a submitted report, contact FMI with the report ID if available. Because Chatty-mini has no account system, the report ID is the most reliable way to locate a specific submitted report.
         </p>
       </section>
 
