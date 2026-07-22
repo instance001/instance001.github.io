@@ -28,6 +28,7 @@ This site exists to provide a clear public-facing organizational surface for:
 - `app-support.html` - app store oriented support and contact page
 - `assets/` - site images and brand assets
 - `styles.css` - shared visual system
+- `GLOSSARY.md` - local glossary excerpt for this repo's public-site terms
 
 ## Publishing
 
