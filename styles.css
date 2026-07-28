@@ -193,10 +193,30 @@ a {
   color: #f9f5ec;
 }
 
+.button.button-primary,
+.button.button-primary:visited {
+  color: #f9f5ec;
+}
+
+.button.button-primary:hover,
+.button.button-primary:focus-visible {
+  color: #ffffff;
+}
+
 .button-secondary {
   background: transparent;
   color: var(--accent);
   border: 1px solid rgba(19, 60, 51, 0.28);
+}
+
+.button.button-secondary,
+.button.button-secondary:visited {
+  color: var(--accent);
+}
+
+.button.button-secondary:hover,
+.button.button-secondary:focus-visible {
+  background: var(--accent-soft);
 }
 
 .hero-panel,
