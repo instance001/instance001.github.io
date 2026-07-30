@@ -26,9 +26,11 @@ async function main() {
 
   const urls = await collectPublicUrls(siteRoot);
   const sitemapXml = buildSitemap(urls);
+  const sitemapText = buildTextSitemap(urls);
   await fs.writeFile(path.join(siteRoot, "sitemap.xml"), sitemapXml, "utf8");
+  await fs.writeFile(path.join(siteRoot, "sitemap.txt"), sitemapText, "utf8");
 
-  console.log(`Generated repo-directory.html and sitemap.xml from ${repoIndexPath}`);
+  console.log(`Generated repo-directory.html, sitemap.xml, and sitemap.txt from ${repoIndexPath}`);
 }
 
 function extractRepoTable(markdown, startHeading, endHeading) {
@@ -132,6 +134,10 @@ function buildSitemap(urls) {
 ${entries}
 </urlset>
 `;
+}
+
+function buildTextSitemap(urls) {
+  return `${urls.map(({ location }) => location).join("\n")}\n`;
 }
 
 function buildRepoDirectoryPage({ activeRepos, archivedRepos, generatedAt }) {
