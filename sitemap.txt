@@ -9,5 +9,6 @@ https://instance001.github.io/independent-convergence.html
 https://instance001.github.io/privacy/chatty-mini.html
 https://instance001.github.io/privacy/chatty-pet.html
 https://instance001.github.io/projects.html
+https://instance001.github.io/public-record.html
 https://instance001.github.io/repo-directory.html
 https://instance001.github.io/stewardship.html

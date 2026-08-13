@@ -172,6 +172,8 @@ function buildRepoDirectoryPage({ activeRepos, archivedRepos, generatedAt }) {
         <a href="about.html">About</a>
         <a href="branches.html">Branches</a>
         <a href="projects.html">Projects</a>
+        <a href="public-record.html">Public Record</a>
+        <a href="ai-fair-go.html">AI Fair-Go</a>
         <a href="repo-directory.html" aria-current="page">Repo Atlas</a>
         <a href="independent-convergence.html">Convergence</a>
         <a href="stewardship.html">Stewardship</a>
