@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Generate sitemap and repo atlas
+      - name: Generate public record, sitemap, and repo atlas
         env:
           REPO_INDEX_README: ../Whatisthisgithub/README.md
         run: node scripts/generate-seo.mjs
@@ -36,10 +36,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add repo-directory.html sitemap.xml sitemap.txt
+          git add public-record.html repo-directory.html sitemap.xml sitemap.txt
           if git diff --cached --quiet; then
             echo "No SEO changes to commit."
             exit 0
           fi
-          git commit -m "Refresh sitemap and repo atlas"
+          git commit -m "Refresh public record, sitemap, and repo atlas"
           git push

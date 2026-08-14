@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { generatePublicRecord } from "./generate-public-record.mjs";
 
 const siteRoot = process.cwd();
 const siteUrl = "https://instance001.github.io";
@@ -12,6 +13,8 @@ const htmlExcludes = [
 ];
 
 async function main() {
+  await generatePublicRecord();
+
   const repoIndex = await fs.readFile(repoIndexPath, "utf8");
   const activeRepos = extractRepoTable(repoIndex, "## Active Repositories", "## Archived Repositories");
   const archivedRepos = extractRepoTable(repoIndex, "## Archived Repositories", "<!-- AUTO-GENERATED-INDEX:END -->");
@@ -30,7 +33,7 @@ async function main() {
   await fs.writeFile(path.join(siteRoot, "sitemap.xml"), sitemapXml, "utf8");
   await fs.writeFile(path.join(siteRoot, "sitemap.txt"), sitemapText, "utf8");
 
-  console.log(`Generated repo-directory.html, sitemap.xml, and sitemap.txt from ${repoIndexPath}`);
+  console.log(`Generated public-record.html, repo-directory.html, sitemap.xml, and sitemap.txt from ${repoIndexPath}`);
 }
 
 function extractRepoTable(markdown, startHeading, endHeading) {

@@ -1,0 +1,434 @@
+{
+  "page": {
+    "title": "Public Record | Fractal Media Infrastructure",
+    "description": "A dated public record for Fractal Media Infrastructure, collecting policy, research, software, public-code, identity, and education signals in one place.",
+    "canonical": "https://instance001.github.io/public-record.html",
+    "hero": {
+      "eyebrow": "Public record",
+      "heading": "A compact evidence ledger for FMI work.",
+      "body": "This page gathers the public-facing records that help reviewers, policy staff, collaborators, and institutional readers understand what Fractal Media Infrastructure has already placed into the public record: policy submissions, scholarly identifiers, indexed papers, public software, open repositories, app releases, and public education surfaces.",
+      "actions": [
+        {
+          "label": "Read the ledger",
+          "href": "#record-ledger",
+          "style": "primary"
+        },
+        {
+          "label": "ORCID profile",
+          "href": "https://orcid.org/0009-0007-5750-5236",
+          "rel": "me"
+        },
+        {
+          "label": "PhilPeople profile",
+          "href": "https://philpeople.org/profiles/anthony-paterson"
+        },
+        {
+          "label": "Repo atlas",
+          "href": "repo-directory.html"
+        }
+      ]
+    },
+    "summary": [
+      {
+        "date": "2025-07-02 onward",
+        "title": "Public GitHub trail",
+        "body": "Open repositories, generated index, current/archived split, and a site-native repo atlas for review."
+      },
+      {
+        "date": "2025-11-24 onward",
+        "title": "Policy and governance",
+        "body": "Australian AI Fair-Go, safety/governance analysis, and Senate inquiry material."
+      },
+      {
+        "date": "2026-01-18 onward",
+        "title": "Scholarly identity",
+        "body": "ORCID, PhilPeople, PhilPapers entries, source mirrors, and manuscript-preparation lanes."
+      },
+      {
+        "date": "2026-07-11 onward",
+        "title": "Public software releases",
+        "body": "Google Play surfaces, app-specific privacy pages, and source-linked support pages."
+      }
+    ],
+    "badges": [
+      {
+        "label": "Open code corpus",
+        "value": "76 public repos",
+        "href": "https://github.com/instance001"
+      },
+      {
+        "label": "Current lanes",
+        "value": "51 active repos",
+        "href": "repo-directory.html"
+      },
+      {
+        "label": "Researcher ID",
+        "value": "ORCID",
+        "href": "https://orcid.org/0009-0007-5750-5236",
+        "rel": "me"
+      },
+      {
+        "label": "Indexed writing",
+        "value": "4 public papers",
+        "href": "https://philpeople.org/profiles/anthony-paterson/publications"
+      },
+      {
+        "label": "Public apps",
+        "value": "2 production apps",
+        "href": "google-play.html"
+      },
+      {
+        "label": "Policy lane",
+        "value": "AI Fair-Go",
+        "href": "ai-fair-go.html"
+      },
+      {
+        "label": "Evidence page",
+        "value": "Convergence",
+        "href": "independent-convergence.html"
+      },
+      {
+        "label": "Public education",
+        "value": "Let's Rethink AI",
+        "href": "https://www.youtube.com/@LetsRethinkAI"
+      }
+    ],
+    "footerPanel": {
+      "eyebrow": "How to read this record",
+      "heading": "Not a pitch deck. Receipts first.",
+      "body": "The page is intentionally compact: dates, surfaces, short theme notes, and direct evidence links. It is meant to help a busy reader see that FMI work is not confined to one repo or one claim; it spans policy, software, public education, research indexing, and open technical infrastructure.",
+      "facts": [
+        {
+          "label": "Primary contact",
+          "value": "fractalmediainfrastructure@gmail.com",
+          "href": "mailto:fractalmediainfrastructure@gmail.com"
+        },
+        {
+          "label": "ORCID",
+          "value": "0009-0007-5750-5236",
+          "href": "https://orcid.org/0009-0007-5750-5236",
+          "rel": "me"
+        },
+        {
+          "label": "ABN",
+          "value": "37 986 304 856"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "type": "Policy",
+      "date": "Pending public release",
+      "datetime": "2026-09-01",
+      "featured": true,
+      "title": "Australian Senate inquiry into artificial intelligence and data centres",
+      "body": "FMI has prepared a submission for the Senate inquiry into artificial intelligence and data centres. The official parliamentary submission link will be added here once the committee publishes submissions through the public record.",
+      "facts": [
+        {
+          "label": "Status",
+          "value": "Submission/public link pending committee publication"
+        },
+        {
+          "label": "Inquiry date",
+          "value": "Referred 2026-05-13; submissions extended to 2026-09-01"
+        },
+        {
+          "label": "Theme",
+          "value": "AI infrastructure, data centres, national capability, local/cloud choice, public-interest governance"
+        }
+      ],
+      "links": [
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        },
+        {
+          "label": "Official inquiry page",
+          "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
+      "date": "2026-07-23",
+      "datetime": "2026-07-23",
+      "title": "Australian AI Fair-Go",
+      "body": "A public policy lane arguing for fit-for-purpose AI: local where local is enough, cloud where cloud is justified, and stronger obligations where AI systems exercise power over people.",
+      "facts": [
+        {
+          "label": "Theme",
+          "value": "Australian AI sovereignty, proportionate governance, model choice, grassroots capability"
+        },
+        {
+          "label": "Public trail",
+          "value": "Evidence repository first local Git history begins 2026-07-23"
+        },
+        {
+          "label": "Signal",
+          "value": "Policy-facing work connected to practical software and open evidence rather than abstract positioning alone."
+        }
+      ],
+      "links": [
+        {
+          "label": "Read the policy page",
+          "href": "ai-fair-go.html"
+        },
+        {
+          "label": "Evidence repository",
+          "href": "https://github.com/instance001/australian-ai-fair-go"
+        }
+      ]
+    },
+    {
+      "type": "Scholarly identity",
+      "date": "2026-01-18 onward",
+      "datetime": "2026-01-18",
+      "title": "Researcher identity records",
+      "body": "Persistent researcher identity surfaces connect publications, source repositories, and external scholarly systems under stable public records.",
+      "facts": [
+        {
+          "label": "PhilPapers account",
+          "value": "Registration confirmation dated 2026-01-18"
+        },
+        {
+          "label": "ORCID",
+          "value": "0009-0007-5750-5236, created 2026-08-14"
+        },
+        {
+          "label": "Signal",
+          "value": "Provides a durable identity anchor for policy readers, academics, and publication systems."
+        }
+      ],
+      "links": [
+        {
+          "label": "Open ORCID record",
+          "href": "https://orcid.org/0009-0007-5750-5236",
+          "rel": "me"
+        },
+        {
+          "label": "Open PhilPeople profile",
+          "href": "https://philpeople.org/profiles/anthony-paterson"
+        }
+      ]
+    },
+    {
+      "type": "Scholarly index",
+      "date": "Updated 2026-08-13",
+      "datetime": "2026-08-13",
+      "title": "PhilPeople and PhilPapers author record",
+      "body": "Four FMI papers are currently visible through PhilPapers / PhilArchive under the Anthony Paterson author profile, with source repositories retained for context, licensing, and public review.",
+      "facts": [
+        {
+          "label": "Currently visible entries",
+          "value": "Cognition Scale Taxonomy, Safety Theatre, The Collapse Of The Semantic Middle, and Architectural Legacies"
+        },
+        {
+          "label": "Public source dates",
+          "value": "Cognition Scale 2025-11-15; Cognitive Theology 2025-12-07; Safety Theatre 2026-02-10; Semantic Middle 2026-07-24"
+        },
+        {
+          "label": "Theme",
+          "value": "Cognition taxonomy, safety and agency, semantic mediation, cognitive-theology architecture"
+        }
+      ],
+      "links": [
+        {
+          "label": "PhilPeople profile",
+          "href": "https://philpeople.org/profiles/anthony-paterson"
+        },
+        {
+          "label": "Publication list",
+          "href": "https://philpeople.org/profiles/anthony-paterson/publications"
+        },
+        {
+          "label": "Cognition Scale Taxonomy",
+          "href": "https://philpapers.org/rec/PATCST-4"
+        },
+        {
+          "label": "Safety Theatre entry",
+          "href": "https://philpapers.org/rec/PATSTA-5"
+        },
+        {
+          "label": "Semantic Middle entry",
+          "href": "https://philpapers.org/rec/PATTCO-24"
+        },
+        {
+          "label": "Architectural Legacies",
+          "href": "https://philpapers.org/rec/PATALA-3"
+        }
+      ]
+    },
+    {
+      "type": "Open source",
+      "date": "2025-07-02 onward",
+      "datetime": "2025-07-02",
+      "title": "Public GitHub corpus and generated repo atlas",
+      "body": "The public GitHub record is broad, inspectable, and indexed: active projects, historical repositories, source mirrors, policy work, research notes, app code, and supporting infrastructure remain visible rather than hidden behind a private portfolio.",
+      "facts": [
+        {
+          "label": "Current index",
+          "value": "76 public repositories: 51 active and 25 archived"
+        },
+        {
+          "label": "Account-level anchor",
+          "value": "Public GitHub activity begins 2025-07-02"
+        },
+        {
+          "label": "Theme",
+          "value": "Local-first tools, AI interaction, memory architecture, policy, education, research, app releases"
+        }
+      ],
+      "links": [
+        {
+          "label": "GitHub profile",
+          "href": "https://github.com/instance001"
+        },
+        {
+          "label": "Site-native repo atlas",
+          "href": "repo-directory.html"
+        },
+        {
+          "label": "Source index",
+          "href": "https://github.com/instance001/Whatisthisgithub"
+        },
+        {
+          "label": "Easy Start Guide",
+          "href": "https://github.com/instance001/Whatisthisgithub/blob/main/EASY_START.md"
+        }
+      ]
+    },
+    {
+      "type": "Software release",
+      "date": "2026-07-11 onward",
+      "datetime": "2026-07-11",
+      "title": "Google Play releases with source and privacy surfaces",
+      "body": "FMI publishes selected Android apps through Google Play while preserving source-code context, app-specific privacy pages, package identifiers, production status, and public support routes.",
+      "facts": [
+        {
+          "label": "Current packages",
+          "value": "io.instance001.chatmini and io.instance001.chattypet"
+        },
+        {
+          "label": "Play Console record",
+          "value": "2 production apps; Chatty-Pet last updated 2026-07-12; Chatty-Mini last updated 2026-07-19"
+        },
+        {
+          "label": "Public source dates",
+          "value": "Chatty-Pet source/privacy surface 2026-07-11; Chatty-mini source 2026-07-15 and privacy surface 2026-07-17"
+        }
+      ],
+      "links": [
+        {
+          "label": "Google Play release directory",
+          "href": "google-play.html"
+        },
+        {
+          "label": "App support",
+          "href": "app-support.html"
+        },
+        {
+          "label": "Chatty-mini privacy policy",
+          "href": "privacy/chatty-mini.html"
+        },
+        {
+          "label": "Chatty-Pet privacy policy",
+          "href": "privacy/chatty-pet.html"
+        }
+      ]
+    },
+    {
+      "type": "Public education",
+      "date": "2026-06-19 onward",
+      "datetime": "2026-06-19",
+      "title": "Let's Rethink AI media branch",
+      "body": "The public education branch exists to translate AI tooling and policy questions into more accessible explanations without separating them from the underlying open-source record.",
+      "facts": [
+        {
+          "label": "Theme",
+          "value": "AI education, tool literacy, public explanation, access beyond specialist audiences"
+        },
+        {
+          "label": "Site trail",
+          "value": "Public FMI website first local Git history begins 2026-06-19"
+        },
+        {
+          "label": "Signal",
+          "value": "Shows a public-facing communication surface alongside the technical and policy corpus."
+        }
+      ],
+      "links": [
+        {
+          "label": "YouTube channel",
+          "href": "https://www.youtube.com/@LetsRethinkAI"
+        },
+        {
+          "label": "Branch structure",
+          "href": "branches.html"
+        }
+      ]
+    },
+    {
+      "type": "Evidence",
+      "date": "2026-06-19 onward",
+      "datetime": "2026-06-19",
+      "title": "Independent convergence record",
+      "body": "A separate evidence page collects selected examples where FMI's public trail shows work in problem-spaces that later became more visible elsewhere in industry, policy, or research.",
+      "facts": [
+        {
+          "label": "Theme",
+          "value": "Independent public development, dated receipts, technical relevance, non-exclusive claims"
+        },
+        {
+          "label": "Signal",
+          "value": "Useful for readers asking whether the work is isolated, reactive, or part of a larger pattern of serious technical engagement."
+        }
+      ],
+      "links": [
+        {
+          "label": "Open convergence page",
+          "href": "independent-convergence.html"
+        }
+      ]
+    },
+    {
+      "type": "Stewardship",
+      "date": "2025-11-24 onward",
+      "datetime": "2025-11-24",
+      "title": "Organizational and contact record",
+      "body": "FMI maintains a public organizational surface with registered business details, contact information, public support routes, and a commons-first stewardship stance. The business-name and ABN update records mark the shift from an existing ABN into the FMI-shaped public-interest work.",
+      "facts": [
+        {
+          "label": "Registered business",
+          "value": "Fractal Media Infrastructure, ABN 37 986 304 856"
+        },
+        {
+          "label": "Business name",
+          "value": "Fractal Media Infrastructure registered 2025-11-24 for 3 years; next renewal 2028-11-25"
+        },
+        {
+          "label": "ABN update",
+          "value": "ABN details update submitted 2025-11-24 for computer network systems design and integration"
+        },
+        {
+          "label": "Theme",
+          "value": "Public-interest stewardship, funding independence, contactability, reviewability"
+        }
+      ],
+      "links": [
+        {
+          "label": "About FMI",
+          "href": "about.html"
+        },
+        {
+          "label": "Stewardship stance",
+          "href": "stewardship.html"
+        },
+        {
+          "label": "Contact",
+          "href": "contact.html"
+        }
+      ]
+    }
+  ]
+}
