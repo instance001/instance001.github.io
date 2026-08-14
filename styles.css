@@ -610,6 +610,194 @@ a {
   font-weight: 600;
 }
 
+.record-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.record-summary-card,
+.record-entry,
+.record-contact-card {
+  background: var(--surface-strong);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: 1.15rem;
+}
+
+.record-summary-card {
+  min-height: 13rem;
+}
+
+.record-summary-card h2,
+.record-entry h3,
+.record-footer-panel h2 {
+  font-family: "Fraunces", serif;
+  line-height: 1.08;
+}
+
+.record-summary-card h2 {
+  font-size: 1.45rem;
+  margin: 0.5rem 0 0.65rem;
+}
+
+.record-summary-card p,
+.record-entry p,
+.record-footer-panel p {
+  color: var(--muted);
+  line-height: 1.68;
+  margin: 0;
+}
+
+.record-summary-grid + .focus-list {
+  margin-top: 1rem;
+}
+
+.record-date {
+  color: var(--accent-2) !important;
+  font-weight: 700;
+}
+
+.record-badge-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+.record-badge {
+  display: grid;
+  gap: 0.25rem;
+  min-height: 5.5rem;
+  padding: 0.95rem;
+  border: 1px solid rgba(19, 60, 51, 0.2);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(180deg, rgba(19, 60, 51, 0.06), rgba(255, 248, 236, 0.96)),
+    var(--surface-strong);
+  color: inherit;
+  text-decoration: none;
+}
+
+.record-badge:hover,
+.record-badge:focus-visible {
+  border-color: rgba(19, 60, 51, 0.45);
+  background:
+    linear-gradient(180deg, rgba(19, 60, 51, 0.1), rgba(255, 248, 236, 0.98)),
+    var(--surface-strong);
+}
+
+.record-badge span {
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.record-badge strong {
+  align-self: end;
+  color: var(--accent);
+  font-size: 1.05rem;
+}
+
+.record-ledger {
+  display: grid;
+  gap: 1rem;
+}
+
+.record-entry {
+  border-left: 0.35rem solid rgba(19, 60, 51, 0.34);
+}
+
+.record-entry-featured {
+  border-color: rgba(155, 91, 46, 0.55);
+  background:
+    linear-gradient(180deg, rgba(155, 91, 46, 0.08), rgba(255, 248, 236, 0.96)),
+    var(--surface-strong);
+}
+
+.record-entry-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.record-entry-meta time {
+  color: var(--accent-2);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.record-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.8rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.record-entry h3 {
+  font-size: 1.45rem;
+  margin: 0 0 0.7rem;
+}
+
+.record-facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 0;
+}
+
+.record-facts div {
+  border-top: 1px solid var(--line);
+  padding-top: 0.75rem;
+}
+
+.record-facts dt {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.record-facts dd {
+  color: var(--muted);
+  line-height: 1.55;
+  margin: 0.35rem 0 0;
+}
+
+.record-footer-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(280px, 0.6fr);
+  gap: 1rem;
+  align-items: start;
+}
+
+.record-footer-panel h2 {
+  margin: 0.25rem 0 0.8rem;
+}
+
+.record-contact-card {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.record-contact-card a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.record-contact-card a:hover,
+.record-contact-card a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
 .footer {
   border-radius: var(--radius-lg);
   padding: 1.4rem 1.7rem;
@@ -646,6 +834,10 @@ code {
   .card-grid,
   .signal-grid,
   .project-grid,
+  .record-summary-grid,
+  .record-badge-grid,
+  .record-facts,
+  .record-footer-panel,
   .repo-summary-grid,
   .repo-directory-grid,
   .stewardship-grid,

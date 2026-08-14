@@ -22,7 +22,7 @@ This site exists to provide a clear public-facing organizational surface for:
 - `about.html` - mission and operating stance
 - `branches.html` - explanation of FMI, instance001, and Let's Rethink AI
 - `projects.html` - selected active project lanes
-- `public-record.html` - external public records, indexes, source links, and release surfaces
+- `public-record.html` - external public records, indexes, ORCID/PhilPapers profiles, source links, and release surfaces
 - `ai-fair-go.html` - Australian AI Fair-Go policy companion page
 - `independent-convergence.html` - selective evidence page for parallel public development
 - `stewardship.html` - funding, independence, and stewardship stance
