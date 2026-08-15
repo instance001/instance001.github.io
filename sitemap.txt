@@ -6,6 +6,7 @@ https://instance001.github.io/branches.html
 https://instance001.github.io/contact.html
 https://instance001.github.io/google-play.html
 https://instance001.github.io/independent-convergence.html
+https://instance001.github.io/obtainium.html
 https://instance001.github.io/privacy/chatty-mini.html
 https://instance001.github.io/privacy/chatty-pet.html
 https://instance001.github.io/projects.html
