@@ -3,6 +3,7 @@ https://instance001.github.io/about.html
 https://instance001.github.io/ai-fair-go.html
 https://instance001.github.io/app-support.html
 https://instance001.github.io/branches.html
+https://instance001.github.io/chatty-art-windows.html
 https://instance001.github.io/chatty-edu-windows.html
 https://instance001.github.io/contact.html
 https://instance001.github.io/google-play.html
