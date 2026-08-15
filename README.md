@@ -29,6 +29,7 @@ This site exists to provide a clear public-facing organizational surface for:
 - `contact.html` - public contact and support information
 - `app-support.html` - app store oriented support and contact page
 - `obtainium.html` - direct APK and Obtainium install guide
+- `chatty-edu-windows.html` - Chatty-EDU Windows portable install guide
 - `assets/` - site images and brand assets
 - `data/public-record.json` - source data for the generated public record page
 - `scripts/generate-public-record.mjs` - generates `public-record.html` from the public record manifest
