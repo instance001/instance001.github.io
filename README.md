@@ -5,7 +5,7 @@ This repository is the static GitHub Pages front door for Fractal Media Infrastr
 It is designed to present the organization as the umbrella public-interest entity behind:
 
 - `instance001` as the open R&D lab and GitHub ecosystem
-- `Let's Rethink AI` as the media and public education branch
+- `Let's Rethink AI` as the media and public education branch, with YouTube and TikTok public surfaces
 
 ## Purpose
 

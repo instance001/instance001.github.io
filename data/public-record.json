@@ -69,8 +69,9 @@
       },
       {
         "label": "Indexed writing",
-        "value": "4 public papers",
-        "href": "https://philpeople.org/profiles/anthony-paterson/publications"
+        "value": "8 ORCID-listed works",
+        "href": "https://orcid.org/0009-0007-5750-5236",
+        "rel": "me"
       },
       {
         "label": "Public apps",
@@ -89,7 +90,7 @@
       },
       {
         "label": "Public education",
-        "value": "Let's Rethink AI",
+        "value": "YouTube + TikTok",
         "href": "https://www.youtube.com/@LetsRethinkAI"
       }
     ],
@@ -214,25 +215,30 @@
     },
     {
       "type": "Scholarly index",
-      "date": "Updated 2026-08-13",
-      "datetime": "2026-08-13",
-      "title": "PhilPeople and PhilPapers author record",
-      "body": "Four FMI papers are currently visible through PhilPapers / PhilArchive under the Anthony Paterson author profile, with source repositories retained for context, licensing, and public review.",
+      "date": "ORCID checked 2026-08-18",
+      "datetime": "2026-08-18",
+      "title": "ORCID scholarly works mirrored through public paper surfaces",
+      "body": "Eight FMI scholarly works are currently listed on the public ORCID record. FMI treats ORCID as the structured public counter for papers that are also maintained through PhilPapers / PhilArchive-facing publication workflows, with source repositories retained for context, licensing, and public review.",
       "facts": [
         {
-          "label": "Currently visible entries",
-          "value": "Cognition Scale Taxonomy, Safety Theatre, The Collapse Of The Semantic Middle, and Architectural Legacies"
+          "label": "ORCID-listed works",
+          "value": "8 ORCID-listed works"
         },
         {
-          "label": "Public source dates",
-          "value": "Cognition Scale 2025-11-15; Cognitive Theology 2025-12-07; Safety Theatre 2026-02-10; Semantic Middle 2026-07-24"
+          "label": "Current titles",
+          "value": "Architectural Legacies: A Structural Comparison of Polytheistic and Monotheistic Systems and Their Continuing Influence on Modern Institutions, Claim-Action Divergence and Evidence Substitution in Ai-Assisted Technical Review, Cognition Scale Taxonomy -- Full Edition (V0.3), Reflective Identity Geometry V0.2, Relational Curriculum Geometry Hypothesis, Safety Theatre and the Suppression of Agency, The Collapse of the Semantic Middle, and Why Safety-First Ai Governance Risks Producing Unsafe Systems"
         },
         {
-          "label": "Theme",
-          "value": "Cognition taxonomy, safety and agency, semantic mediation, cognitive-theology architecture"
+          "label": "Mirror context",
+          "value": "PhilPapers / PhilArchive-facing uploads are added to ORCID at the same time where applicable."
         }
       ],
       "links": [
+        {
+          "label": "ORCID record",
+          "href": "https://orcid.org/0009-0007-5750-5236",
+          "rel": "me"
+        },
         {
           "label": "PhilPeople profile",
           "href": "https://philpeople.org/profiles/anthony-paterson"
@@ -240,22 +246,6 @@
         {
           "label": "Publication list",
           "href": "https://philpeople.org/profiles/anthony-paterson/publications"
-        },
-        {
-          "label": "Cognition Scale Taxonomy",
-          "href": "https://philpapers.org/rec/PATCST-4"
-        },
-        {
-          "label": "Safety Theatre entry",
-          "href": "https://philpapers.org/rec/PATSTA-5"
-        },
-        {
-          "label": "Semantic Middle entry",
-          "href": "https://philpapers.org/rec/PATTCO-24"
-        },
-        {
-          "label": "Architectural Legacies",
-          "href": "https://philpapers.org/rec/PATALA-3"
         }
       ]
     },
@@ -342,7 +332,7 @@
       "date": "2026-06-19 onward",
       "datetime": "2026-06-19",
       "title": "Let's Rethink AI media branch",
-      "body": "The public education branch exists to translate AI tooling and policy questions into more accessible explanations without separating them from the underlying open-source record.",
+      "body": "The public education branch exists to translate AI tooling and policy questions into more accessible explanations without separating them from the underlying open-source record. YouTube carries the long-form channel surface, while TikTok provides a short-form FMI media route.",
       "facts": [
         {
           "label": "Theme",
@@ -361,6 +351,10 @@
         {
           "label": "YouTube channel",
           "href": "https://www.youtube.com/@LetsRethinkAI"
+        },
+        {
+          "label": "TikTok channel",
+          "href": "https://www.tiktok.com/@fractal.media.infra"
         },
         {
           "label": "Branch structure",
