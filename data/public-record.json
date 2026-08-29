@@ -69,7 +69,7 @@
       },
       {
         "label": "Indexed writing",
-        "value": "8 ORCID-listed works",
+        "value": "9 ORCID-listed works",
         "href": "https://orcid.org/0009-0007-5750-5236",
         "rel": "me"
       },
@@ -215,18 +215,18 @@
     },
     {
       "type": "Scholarly index",
-      "date": "ORCID checked 2026-08-28",
-      "datetime": "2026-08-28",
+      "date": "ORCID checked 2026-08-29",
+      "datetime": "2026-08-29",
       "title": "ORCID scholarly works mirrored through public paper surfaces",
-      "body": "Eight FMI scholarly works are currently listed on the public ORCID record. FMI treats ORCID as the structured public counter for papers that are also maintained through PhilPapers / PhilArchive-facing publication workflows, with source repositories retained for context, licensing, and public review.",
+      "body": "Nine FMI scholarly works are currently listed on the public ORCID record. FMI treats ORCID as the structured public counter for papers that are also maintained through PhilPapers / PhilArchive-facing publication workflows, with source repositories retained for context, licensing, and public review.",
       "facts": [
         {
           "label": "ORCID-listed works",
-          "value": "8 ORCID-listed works"
+          "value": "9 ORCID-listed works"
         },
         {
           "label": "Current titles",
-          "value": "Architectural Legacies: A Structural Comparison of Polytheistic and Monotheistic Systems and Their Continuing Influence on Modern Institutions, Claim-Action Divergence and Evidence Substitution in Ai-Assisted Technical Review, Cognition Scale Taxonomy -- Full Edition (V0.3), Reflective Identity Geometry V0.2, Relational Curriculum Geometry Hypothesis, Safety Theatre and the Suppression of Agency, The Collapse of the Semantic Middle, and Why Safety-First Ai Governance Risks Producing Unsafe Systems"
+          "value": "Architectural Legacies: A Structural Comparison of Polytheistic and Monotheistic Systems and Their Continuing Influence on Modern Institutions, Claim-Action Divergence and Evidence Substitution in Ai-Assisted Technical Review, Cognition Scale Taxonomy -- Full Edition (V0.3), Reflective Identity Geometry V0.2, Relational Curriculum Geometry Hypothesis, Religious Authority as Epistemic Architecture, Safety Theatre and the Suppression of Agency, The Collapse of the Semantic Middle, and Why Safety-First Ai Governance Risks Producing Unsafe Systems"
         },
         {
           "label": "Mirror context",
