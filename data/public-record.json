@@ -80,7 +80,7 @@
       },
       {
         "label": "Policy lane",
-        "value": "AI Fair-Go",
+        "value": "2 gov submissions",
         "href": "ai-fair-go.html"
       },
       {
@@ -141,12 +141,44 @@
       ],
       "links": [
         {
-          "label": "AI Fair-Go policy page",
-          "href": "ai-fair-go.html"
-        },
-        {
           "label": "Official inquiry page",
           "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-08-29",
+      "datetime": "2026-08-29",
+      "featured": true,
+      "title": "Joint Select Committee on Artificial Intelligence inquiry submission",
+      "body": "FMI has submitted material to the Joint Select Committee on Artificial Intelligence inquiry. The acknowledgement from the Committee Secretariat records that the committee will consider the matters raised, and that submissions become committee documents before any public release decision.",
+      "facts": [
+        {
+          "label": "Status",
+          "value": "Submission acknowledged 2026-08-29; public publication pending committee decision"
+        },
+        {
+          "label": "Committee",
+          "value": "Joint Select Committee on Artificial Intelligence"
+        },
+        {
+          "label": "Theme",
+          "value": "National AI policy, sovereign capability, adoption barriers, data sovereignty, workforce impacts, law, security, and social effects"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official inquiry page",
+          "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Artificial_Intelligence"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
         }
       ]
     },
