@@ -80,7 +80,7 @@
       },
       {
         "label": "Policy lane",
-        "value": "2 gov submissions",
+        "value": "6 gov submissions",
         "href": "ai-fair-go.html"
       },
       {
@@ -118,6 +118,134 @@
     }
   },
   "records": [
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-09-04",
+      "datetime": "2026-09-04",
+      "featured": true,
+      "title": "Privacy Reform consultation submission",
+      "body": "FMI has placed a submission into the Attorney-General's Department consultation on the Exposure Draft Privacy Amendment (Personal Data Protection) Bill 2026.",
+      "facts": [
+        {
+          "label": "Consultation",
+          "value": "Privacy Reform consultation - Exposure Draft Privacy Amendment (Personal Data Protection) Bill 2026"
+        },
+        {
+          "label": "Department",
+          "value": "Attorney-General's Department"
+        },
+        {
+          "label": "Theme",
+          "value": "Personal data protection, privacy law modernisation, AI-related privacy risks, individual control, and accountable digital systems"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official consultation page",
+          "href": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-09-04",
+      "datetime": "2026-09-04",
+      "featured": true,
+      "title": "National civil preparedness and resilience inquiry submission",
+      "body": "FMI has placed a submission into the Parliamentary Joint Committee on Defence inquiry into Australia's national civil preparedness and resilience.",
+      "facts": [
+        {
+          "label": "Inquiry",
+          "value": "Inquiry into Australia's National Civil Preparedness and Resilience"
+        },
+        {
+          "label": "Committee",
+          "value": "Parliamentary Joint Committee on Defence"
+        },
+        {
+          "label": "Theme",
+          "value": "Civil preparedness, resilience, sovereign capability, infrastructure continuity, public coordination, and practical readiness"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official inquiry page",
+          "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Parliamentary_Joint_Committee_on_Defence/Civilpreparedness"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-09-04",
+      "datetime": "2026-09-04",
+      "featured": true,
+      "title": "Horizon Europe Implementation consultation submission",
+      "body": "FMI has placed a submission into the Department of Industry, Science and Resources consultation on Horizon Europe implementation, focused on practical access for small, independent, regional, and unconventional Australian R&D.",
+      "facts": [
+        {
+          "label": "Consultation",
+          "value": "Horizon Europe Implementation consultation"
+        },
+        {
+          "label": "Department",
+          "value": "Department of Industry, Science and Resources"
+        },
+        {
+          "label": "Theme",
+          "value": "Practical access, small and independent R&D, regional participation, unconventional research pathways, and Australian capability building"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official consultation page",
+          "href": "https://consult.industry.gov.au/horizon-europe-implementation"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-09-04",
+      "datetime": "2026-09-04",
+      "featured": true,
+      "title": "Digital Protections Framework submission",
+      "body": "FMI has placed a submission into the Department of Employment and Workplace Relations Digital Protections Framework consultation, focused on meaningful human authority and accountable automation in employment services administration.",
+      "facts": [
+        {
+          "label": "Framework",
+          "value": "Digital Protections Framework and Section 40Y Guidelines"
+        },
+        {
+          "label": "Department",
+          "value": "Department of Employment and Workplace Relations"
+        },
+        {
+          "label": "Theme",
+          "value": "Meaningful human authority, case-aware automation, natural justice, decision provenance, transparency, and real alternative pathways"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official framework page",
+          "href": "https://www.dewr.gov.au/assuring-integrity-targeted-compliance-framework"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
     {
       "type": "Policy",
       "date": "Pending public release",
