@@ -80,7 +80,7 @@
       },
       {
         "label": "Policy lane",
-        "value": "6 gov submissions",
+        "value": "6 submissions + 1 framework",
         "href": "ai-fair-go.html"
       },
       {
@@ -311,7 +311,7 @@
       ]
     },
     {
-      "type": "Policy",
+      "type": "Policy framework",
       "date": "2026-07-23",
       "datetime": "2026-07-23",
       "title": "Australian AI Fair-Go",
