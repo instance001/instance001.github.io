@@ -74,11 +74,10 @@ function validatePublicRecordData(data) {
       requiredString(record.widget.scriptSrc, `records[${index}].widget.scriptSrc`);
     }
 
-    if (record.orcidNote) {
-      requiredObject(record.orcidNote, `records[${index}].orcidNote`);
-      requiredString(record.orcidNote.text, `records[${index}].orcidNote.text`);
-      requiredString(record.orcidNote.label, `records[${index}].orcidNote.label`);
-      requiredString(record.orcidNote.href, `records[${index}].orcidNote.href`);
+    if (record.identityLink) {
+      requiredObject(record.identityLink, `records[${index}].identityLink`);
+      requiredString(record.identityLink.label, `records[${index}].identityLink.label`);
+      requiredString(record.identityLink.href, `records[${index}].identityLink.href`);
     }
   }
 }
@@ -145,8 +144,8 @@ function collectLinks(data) {
     ...(data.page.footerPanel.facts || []),
     ...data.records.flatMap((record) => record.links || []),
     ...data.records
-      .filter((record) => record.orcidNote)
-      .map((record) => ({ href: record.orcidNote.href })),
+      .filter((record) => record.identityLink)
+      .map((record) => ({ href: record.identityLink.href })),
     ...data.records
       .filter((record) => record.widget)
       .map((record) => ({ href: record.widget.fallbackHref })),
@@ -314,8 +313,7 @@ function recordEntry(record) {
             <p>
               ${escapeHtml(record.body)}
             </p>
-${record.widget ? recordWidget(record.widget) : ""}
-${record.orcidNote ? orcidNote(record.orcidNote) : ""}
+${record.widget ? recordWidget(record.widget, record.identityLink) : ""}
 ${record.facts?.length ? `            <dl class="record-facts">
 ${record.facts.map(recordFact).join("\n")}
             </dl>
@@ -327,16 +325,27 @@ ${record.links.map((link) => `              ${plainLink(link)}`).join("\n")}
           </article>`;
 }
 
-function recordWidget(widget) {
-  return `            <div class="record-widget">
-              <div class="ppl-widget-container">${escapeHtml(widget.loadingText)} (or view them <a href="${escapeAttribute(widget.fallbackHref)}">here</a>)</div>
-              <script type="text/javascript" src="${escapeAttribute(widget.scriptSrc)}"></script>
-            </div>
-`;
-}
+function recordWidget(widget, identityLink) {
+  const identityAction = identityLink
+    ? `                <a href="${escapeAttribute(identityLink.href)}"${relAttribute(identityLink)}>${escapeHtml(identityLink.label)}</a>`
+    : "";
 
-function orcidNote(note) {
-  return `            <p class="record-orcid-note">${escapeHtml(note.text)} <a href="${escapeAttribute(note.href)}"${relAttribute(note)}>${escapeHtml(note.label)}</a></p>
+  return `            <section class="publication-surface" aria-label="PhilPeople and PhilPapers publication list">
+              <div class="publication-surface-header">
+                <div>
+                  <p class="publication-kicker">Live scholarly index</p>
+                  <h4>PhilPeople / PhilPapers publications</h4>
+                </div>
+                <a href="${escapeAttribute(widget.fallbackHref)}">Open profile</a>
+              </div>
+              <div class="publication-widget-frame">
+                <div class="ppl-widget-container">${escapeHtml(widget.loadingText)} (or view them <a href="${escapeAttribute(widget.fallbackHref)}">here</a>)</div>
+                <script type="text/javascript" src="${escapeAttribute(widget.scriptSrc)}"></script>
+              </div>
+              <div class="publication-surface-footer">
+${identityAction}
+              </div>
+            </section>
 `;
 }
 

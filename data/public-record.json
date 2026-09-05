@@ -331,9 +331,8 @@
         "fallbackHref": "https://philpapers.org/profile/2196694?widget_failed=1",
         "scriptSrc": "https://philpeople.org/widget/1808482.js"
       },
-      "orcidNote": {
-        "text": "Researcher identifier:",
-        "label": "find our ORCID here",
+      "identityLink": {
+        "label": "ORCID profile",
         "href": "https://orcid.org/0009-0007-5750-5236",
         "rel": "me"
       }
