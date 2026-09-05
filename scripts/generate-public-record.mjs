@@ -61,6 +61,13 @@ function validatePublicRecordData(data) {
     requiredString(record.body, `records[${index}].body`);
     requiredArray(record.facts, `records[${index}].facts`);
     requiredArray(record.links, `records[${index}].links`);
+
+    if (record.widget) {
+      requiredObject(record.widget, `records[${index}].widget`);
+      requiredString(record.widget.loadingText, `records[${index}].widget.loadingText`);
+      requiredString(record.widget.fallbackHref, `records[${index}].widget.fallbackHref`);
+      requiredString(record.widget.scriptSrc, `records[${index}].widget.scriptSrc`);
+    }
   }
 }
 
@@ -125,6 +132,9 @@ function collectLinks(data) {
     ...(data.page.badges || []),
     ...(data.page.footerPanel.facts || []),
     ...data.records.flatMap((record) => record.links || []),
+    ...data.records
+      .filter((record) => record.widget)
+      .map((record) => ({ href: record.widget.fallbackHref })),
   ].filter((link) => link.href);
 }
 
@@ -289,6 +299,7 @@ function recordEntry(record) {
             <p>
               ${escapeHtml(record.body)}
             </p>
+${record.widget ? recordWidget(record.widget) : ""}
             <dl class="record-facts">
 ${record.facts.map(recordFact).join("\n")}
             </dl>
@@ -296,6 +307,14 @@ ${record.facts.map(recordFact).join("\n")}
 ${record.links.map((link) => `              ${plainLink(link)}`).join("\n")}
             </p>
           </article>`;
+}
+
+function recordWidget(widget) {
+  return `            <div class="record-widget">
+              <div class="ppl-widget-container">${escapeHtml(widget.loadingText)} (or view them <a href="${escapeAttribute(widget.fallbackHref)}">here</a>)</div>
+              <script type="text/javascript" src="${escapeAttribute(widget.scriptSrc)}"></script>
+            </div>
+`;
 }
 
 function recordFact(fact) {
