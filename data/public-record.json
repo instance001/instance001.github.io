@@ -332,6 +332,7 @@
         "scriptSrc": "https://philpeople.org/widget/1808482.js"
       },
       "identityLink": {
+        "text": "ORCID is the persistent researcher identifier for this work.",
         "label": "ORCID profile",
         "href": "https://orcid.org/0009-0007-5750-5236",
         "rel": "me"

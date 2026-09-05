@@ -76,6 +76,7 @@ function validatePublicRecordData(data) {
 
     if (record.identityLink) {
       requiredObject(record.identityLink, `records[${index}].identityLink`);
+      requiredString(record.identityLink.text, `records[${index}].identityLink.text`);
       requiredString(record.identityLink.label, `records[${index}].identityLink.label`);
       requiredString(record.identityLink.href, `records[${index}].identityLink.href`);
     }
@@ -313,7 +314,8 @@ function recordEntry(record) {
             <p>
               ${escapeHtml(record.body)}
             </p>
-${record.widget ? recordWidget(record.widget, record.identityLink) : ""}
+${record.widget ? recordWidget(record.widget) : ""}
+${record.identityLink ? identityPanel(record.identityLink) : ""}
 ${record.facts?.length ? `            <dl class="record-facts">
 ${record.facts.map(recordFact).join("\n")}
             </dl>
@@ -325,27 +327,19 @@ ${record.links.map((link) => `              ${plainLink(link)}`).join("\n")}
           </article>`;
 }
 
-function recordWidget(widget, identityLink) {
-  const identityAction = identityLink
-    ? `                <a href="${escapeAttribute(identityLink.href)}"${relAttribute(identityLink)}>${escapeHtml(identityLink.label)}</a>`
-    : "";
+function recordWidget(widget) {
+  return `            <div class="record-widget">
+              <div class="ppl-widget-container">${escapeHtml(widget.loadingText)} (or view them <a href="${escapeAttribute(widget.fallbackHref)}">here</a>)</div>
+              <script type="text/javascript" src="${escapeAttribute(widget.scriptSrc)}"></script>
+            </div>
+`;
+}
 
-  return `            <section class="publication-surface" aria-label="PhilPeople and PhilPapers publication list">
-              <div class="publication-surface-header">
-                <div>
-                  <p class="publication-kicker">Live scholarly index</p>
-                  <h4>PhilPeople / PhilPapers publications</h4>
-                </div>
-                <a href="${escapeAttribute(widget.fallbackHref)}">Open profile</a>
-              </div>
-              <div class="publication-widget-frame">
-                <div class="ppl-widget-container">${escapeHtml(widget.loadingText)} (or view them <a href="${escapeAttribute(widget.fallbackHref)}">here</a>)</div>
-                <script type="text/javascript" src="${escapeAttribute(widget.scriptSrc)}"></script>
-              </div>
-              <div class="publication-surface-footer">
-${identityAction}
-              </div>
-            </section>
+function identityPanel(link) {
+  return `            <aside class="record-identity-panel">
+              <p>${escapeHtml(link.text)}</p>
+              <a href="${escapeAttribute(link.href)}"${relAttribute(link)}>${escapeHtml(link.label)}</a>
+            </aside>
 `;
 }
 
