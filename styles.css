@@ -842,6 +842,22 @@ a {
   text-decoration: underline;
 }
 
+.record-orcid-note {
+  color: var(--muted);
+  margin: 0.85rem 0 0;
+}
+
+.record-orcid-note a {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.record-orcid-note a:hover,
+.record-orcid-note a:focus-visible {
+  text-decoration: underline;
+}
+
 .record-facts {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

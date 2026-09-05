@@ -59,14 +59,26 @@ function validatePublicRecordData(data) {
     requiredString(record.datetime, `records[${index}].datetime`);
     requiredString(record.title, `records[${index}].title`);
     requiredString(record.body, `records[${index}].body`);
-    requiredArray(record.facts, `records[${index}].facts`);
-    requiredArray(record.links, `records[${index}].links`);
+    if (record.facts !== undefined) {
+      requiredArray(record.facts, `records[${index}].facts`);
+    }
+
+    if (record.links !== undefined) {
+      requiredArray(record.links, `records[${index}].links`);
+    }
 
     if (record.widget) {
       requiredObject(record.widget, `records[${index}].widget`);
       requiredString(record.widget.loadingText, `records[${index}].widget.loadingText`);
       requiredString(record.widget.fallbackHref, `records[${index}].widget.fallbackHref`);
       requiredString(record.widget.scriptSrc, `records[${index}].widget.scriptSrc`);
+    }
+
+    if (record.orcidNote) {
+      requiredObject(record.orcidNote, `records[${index}].orcidNote`);
+      requiredString(record.orcidNote.text, `records[${index}].orcidNote.text`);
+      requiredString(record.orcidNote.label, `records[${index}].orcidNote.label`);
+      requiredString(record.orcidNote.href, `records[${index}].orcidNote.href`);
     }
   }
 }
@@ -132,6 +144,9 @@ function collectLinks(data) {
     ...(data.page.badges || []),
     ...(data.page.footerPanel.facts || []),
     ...data.records.flatMap((record) => record.links || []),
+    ...data.records
+      .filter((record) => record.orcidNote)
+      .map((record) => ({ href: record.orcidNote.href })),
     ...data.records
       .filter((record) => record.widget)
       .map((record) => ({ href: record.widget.fallbackHref })),
@@ -300,12 +315,15 @@ function recordEntry(record) {
               ${escapeHtml(record.body)}
             </p>
 ${record.widget ? recordWidget(record.widget) : ""}
-            <dl class="record-facts">
+${record.orcidNote ? orcidNote(record.orcidNote) : ""}
+${record.facts?.length ? `            <dl class="record-facts">
 ${record.facts.map(recordFact).join("\n")}
             </dl>
-            <p class="card-links">
+` : ""}
+${record.links?.length ? `            <p class="card-links">
 ${record.links.map((link) => `              ${plainLink(link)}`).join("\n")}
             </p>
+` : ""}
           </article>`;
 }
 
@@ -314,6 +332,11 @@ function recordWidget(widget) {
               <div class="ppl-widget-container">${escapeHtml(widget.loadingText)} (or view them <a href="${escapeAttribute(widget.fallbackHref)}">here</a>)</div>
               <script type="text/javascript" src="${escapeAttribute(widget.scriptSrc)}"></script>
             </div>
+`;
+}
+
+function orcidNote(note) {
+  return `            <p class="record-orcid-note">${escapeHtml(note.text)} <a href="${escapeAttribute(note.href)}"${relAttribute(note)}>${escapeHtml(note.label)}</a></p>
 `;
 }
 

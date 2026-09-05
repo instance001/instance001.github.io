@@ -341,67 +341,26 @@
       ]
     },
     {
-      "type": "Scholarly identity",
-      "date": "2026-01-18 onward",
-      "datetime": "2026-01-18",
-      "title": "Researcher identity records",
-      "body": "Persistent researcher identity records connect publications, source repositories, and external scholarly systems under stable public records.",
-      "facts": [
-        {
-          "label": "PhilPapers account",
-          "value": "Registration confirmation dated 2026-01-18"
-        },
-        {
-          "label": "ORCID",
-          "value": "0009-0007-5750-5236, created 2026-08-14"
-        },
-        {
-          "label": "Signal",
-          "value": "Provides a durable identity anchor for policy readers, academics, and publication systems."
-        }
-      ],
-      "links": [
-        {
-          "label": "Open ORCID record",
-          "href": "https://orcid.org/0009-0007-5750-5236",
-          "rel": "me"
-        },
-        {
-          "label": "Open PhilPeople profile",
-          "href": "https://philpeople.org/profiles/anthony-paterson"
-        }
-      ]
-    },
-    {
       "type": "Scholarly index",
       "date": "Live PhilPapers widget",
       "datetime": "2026-09-05",
       "title": "PhilPapers publication list",
-      "body": "The publication list below is loaded directly from PhilPapers / PhilPeople, so the paper surface can update through the scholarly index rather than relying on a manually maintained title count here. An ORCID profile is also available as a durable researcher identifier.",
+      "body": "The publication list below is loaded directly from PhilPapers / PhilPeople, so this paper surface can update through the scholarly index rather than relying on a manually maintained title count here.",
       "widget": {
         "loadingText": "One moment, publications loading ...",
         "fallbackHref": "https://philpapers.org/profile/2196694?widget_failed=1",
         "scriptSrc": "https://philpeople.org/widget/1808482.js"
       },
-      "facts": [
-        {
-          "label": "Publication source",
-          "value": "PhilPapers / PhilPeople widget"
-        },
-        {
-          "label": "Researcher identifier",
-          "value": "ORCID 0009-0007-5750-5236"
-        }
-      ],
+      "orcidNote": {
+        "text": "Researcher identifier:",
+        "label": "find our ORCID here",
+        "href": "https://orcid.org/0009-0007-5750-5236",
+        "rel": "me"
+      },
       "links": [
         {
           "label": "PhilPapers publication list",
           "href": "https://philpapers.org/profile/2196694?widget_failed=1"
-        },
-        {
-          "label": "ORCID record",
-          "href": "https://orcid.org/0009-0007-5750-5236",
-          "rel": "me"
         }
       ]
     },
