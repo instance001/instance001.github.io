@@ -14,15 +14,6 @@
           "style": "primary"
         },
         {
-          "label": "ORCID profile",
-          "href": "https://orcid.org/0009-0007-5750-5236",
-          "rel": "me"
-        },
-        {
-          "label": "PhilPeople profile",
-          "href": "https://philpeople.org/profiles/anthony-paterson"
-        },
-        {
           "label": "Repo atlas",
           "href": "repo-directory.html"
         }
@@ -42,7 +33,7 @@
       {
         "date": "2026-01-18 onward",
         "title": "Scholarly publishing",
-        "body": "Live PhilPeople / PhilPapers publication list, with ORCID kept as the researcher identity reference."
+        "body": "Live PhilPeople / PhilPapers publication list."
       },
       {
         "date": "2026-07-11 onward",
@@ -66,11 +57,6 @@
         "value": "ORCID",
         "href": "https://orcid.org/0009-0007-5750-5236",
         "rel": "me"
-      },
-      {
-        "label": "Indexed writing",
-        "value": "Live PhilPeople list",
-        "href": "https://philpapers.org/profile/2196694?widget_failed=1"
       },
       {
         "label": "Public apps",
@@ -102,12 +88,6 @@
           "label": "Primary contact",
           "value": "fractalmediainfrastructure@gmail.com",
           "href": "mailto:fractalmediainfrastructure@gmail.com"
-        },
-        {
-          "label": "ORCID",
-          "value": "0009-0007-5750-5236",
-          "href": "https://orcid.org/0009-0007-5750-5236",
-          "rel": "me"
         },
         {
           "label": "ABN",
