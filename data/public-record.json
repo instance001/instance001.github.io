@@ -69,8 +69,9 @@
       },
       {
         "label": "Indexed writing",
-        "value": "Live PhilPapers list",
-        "href": "https://philpapers.org/profile/2196694"
+        "value": "9 ORCID-listed works",
+        "href": "https://orcid.org/0009-0007-5750-5236",
+        "rel": "me"
       },
       {
         "label": "Public apps",
@@ -342,10 +343,11 @@
     },
     {
       "type": "Scholarly index",
-      "date": "Live PhilPapers widget",
+      "date": "ORCID checked 2026-09-05",
       "datetime": "2026-09-05",
-      "title": "PhilPapers publication list",
-      "body": "The publication list below is loaded directly from PhilPapers / PhilPeople, so this paper surface can update through the scholarly index rather than relying on a manually maintained title count here.",
+      "title": "ORCID scholarly works mirrored through public paper surfaces",
+      "body": "Nine FMI scholarly works are currently listed on the public ORCID record. FMI treats ORCID as the structured public counter for papers that are also maintained through PhilPapers / PhilArchive-facing publication workflows, with source repositories retained for context, licensing, and public review. The publication list below is loaded directly from PhilPapers / PhilPeople, so this paper surface can update through the scholarly index rather than relying on a manually maintained title count here.,"
+
       "widget": {
         "loadingText": "One moment, publications loading ...",
         "fallbackHref": "https://philpapers.org/profile/2196694?widget_failed=1",
@@ -357,10 +359,40 @@
         "href": "https://orcid.org/0009-0007-5750-5236",
         "rel": "me"
       },
+      "facts": [
+        {
+          "label": "ORCID-listed works",
+          "value": "9 ORCID-listed works"
+        },
+        {
+          "label": "Current titles",
+          "value": "Architectural Legacies: A Structural Comparison of Polytheistic and Monotheistic Systems and Their Continuing Influence on Modern Institutions, Claim-Action Divergence and Evidence Substitution in Ai-Assisted Technical Review, Cognition Scale Taxonomy -- Full Edition (V0.3), Reflective Identity Geometry V0.2, Relational Curriculum Geometry Hypothesis, Religious Authority as Epistemic Architecture, Safety Theatre and the Suppression of Agency, The Collapse of the Semantic Middle, and Why Safety-First Ai Governance Risks Producing Unsafe Systems"
+        },
+        {
+          "label": "Mirror context",
+          "value": "PhilPapers / PhilArchive-facing uploads are added to ORCID at the same time where applicable."
+        }
+      ],
       "links": [
+        {
+          "label": "ORCID record",
+          "href": "https://orcid.org/0009-0007-5750-5236",
+          "rel": "me"
+        },
+        {
+          "label": "PhilPeople profile",
+          "href": "https://philpeople.org/profiles/anthony-paterson"
+        },
+        {
+          "label": "Publication list",
+          "href": "https://philpeople.org/profiles/anthony-paterson/publications"
+        },
         {
           "label": "PhilPapers publication list",
           "href": "https://philpapers.org/profile/2196694?widget_failed=1"
+        }
+      ]
+
         }
       ]
     },
