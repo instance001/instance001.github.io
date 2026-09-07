@@ -1,0 +1,43 @@
+name: Refresh Repo Atlas
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Pages repo
+        uses: actions/checkout@v4
+
+      - name: Check out the live source index
+        run: git clone --depth 1 https://github.com/instance001/Whatisthisgithub ../Whatisthisgithub
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Refresh Repo Atlas snapshot
+        env:
+          REPO_INDEX_README: ../Whatisthisgithub/README.md
+        run: node scripts/generate-repo-atlas.mjs
+
+      - name: Commit snapshot changes
+        run: |
+          if git diff --quiet -- repo-directory.html; then
+            echo "Repo Atlas is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add repo-directory.html
+          git commit -m "Refresh repo atlas snapshot"
+          git push

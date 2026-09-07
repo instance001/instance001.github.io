@@ -34,6 +34,7 @@ This site exists to provide a clear public-facing organizational surface for:
 - `assets/` - site images and brand assets
 - `data/public-record.json` - source data for the generated public record page
 - `scripts/generate-public-record.mjs` - generates `public-record.html` from the public record manifest
+- `scripts/generate-repo-atlas.mjs` - updates the dated Repo Atlas snapshot from the live public index
 - `styles.css` - shared visual system
 - `GLOSSARY.md` - local glossary excerpt for this repo's public-site terms
 
@@ -49,9 +50,9 @@ An empty `.nojekyll` file is included so GitHub Pages serves the static files di
 ## Generated Surfaces
 
 The public record page is generated from `data/public-record.json`.
+The Repo Atlas refreshes daily from `Whatisthisgithub`; it can also be refreshed locally with `node scripts/generate-repo-atlas.mjs` when that repository is available next to this one.
 
 To update public record entries:
 
 1. Edit `data/public-record.json`.
 2. Run `node scripts/generate-public-record.mjs --check-links`.
-3. Run `node scripts/generate-seo.mjs` to refresh the public record, repo atlas, and sitemaps together.
