@@ -231,11 +231,11 @@
       "datetime": "2026-09-01",
       "featured": true,
       "title": "Australian Senate inquiry into artificial intelligence and data centres",
-      "body": "FMI has prepared a submission for the Senate inquiry into artificial intelligence and data centres. The official parliamentary submission link will be added here once the committee publishes submissions through the public record.",
+      "body": "FMI's submission to the Senate inquiry into artificial intelligence and data centres has been published by the committee as submission 71.",
       "facts": [
         {
           "label": "Status",
-          "value": "Submission/public link pending committee publication"
+          "value": "Published as submission 71"
         },
         {
           "label": "Inquiry date",
@@ -247,6 +247,10 @@
         }
       ],
       "links": [
+        {
+          "label": "Official submission 71 (PDF)",
+          "href": "https://www.aph.gov.au/DocumentStore.ashx?id=99e6c7da-c860-473b-96c4-b41473055810&subId=797390"
+        },
         {
           "label": "Official inquiry page",
           "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P"
