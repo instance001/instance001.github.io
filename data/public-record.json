@@ -6,7 +6,8 @@
     "hero": {
       "eyebrow": "Public record",
       "heading": "A compact evidence ledger for FMI work.",
-      "body": "This page gathers the public-facing records that help reviewers, policy staff, collaborators, and institutional readers understand what Fractal Media Infrastructure has already placed into the public record: policy submissions, scholarly identifiers, indexed papers, public software, open repositories, app releases, and public education surfaces.",
+      "lead": "Papers. Policies. Projects. Public outreach.",
+      "support": "Four outward-facing lanes, one evidence-first record.",
       "actions": [
         {
           "label": "Read the ledger",

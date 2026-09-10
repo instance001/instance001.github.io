@@ -36,6 +36,8 @@ function validatePublicRecordData(data) {
   requiredString(page.description, "page.description");
   requiredString(page.canonical, "page.canonical");
   requiredObject(page.hero, "page.hero");
+  requiredString(page.hero.lead, "page.hero.lead");
+  requiredString(page.hero.support, "page.hero.support");
   requiredArray(page.summary, "page.summary");
   requiredArray(page.badges, "page.badges");
   requiredObject(page.footerPanel, "page.footerPanel");
@@ -203,8 +205,9 @@ ${siteHeader("public-record.html")}
       <section class="page-hero">
         <p class="eyebrow">${escapeHtml(page.hero.eyebrow)}</p>
         <h1>${escapeHtml(page.hero.heading)}</h1>
-        <p>
-          ${escapeHtml(page.hero.body)}
+        <p class="hero-record-statement">
+          <strong>${escapeHtml(page.hero.lead)}</strong><br>
+          <em>${escapeHtml(page.hero.support)}</em>
         </p>
         <div class="hero-actions">
 ${page.hero.actions.map((action) => `          ${buttonLink(action)}`).join("\n")}
