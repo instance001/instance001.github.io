@@ -66,7 +66,7 @@
       },
       {
         "label": "Policy lane",
-        "value": "6 submissions + 1 framework",
+        "value": "7 submissions + 1 framework",
         "href": "ai-fair-go.html"
       },
       {
@@ -98,6 +98,42 @@
     }
   },
   "records": [
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-09-12",
+      "datetime": "2026-09-12",
+      "featured": true,
+      "title": "Online Safety Amendment (Digital Duty of Care) Bill consultation submission",
+      "body": "FMI has submitted feedback on the Exposure Draft Online Safety Amendment (Digital Duty of Care) Bill 2026, supporting the proposed preventative, systems-based direction while arguing for practical proportionality for AI-enabled services, local and privacy-preserving architectures, small developers, open development, and responsibility that follows actual risk and practical control.",
+      "facts": [
+        {
+          "label": "Consultation",
+          "value": "Exposure Draft Online Safety Amendment (Digital Duty of Care) Bill 2026"
+        },
+        {
+          "label": "Department",
+          "value": "Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts"
+        },
+        {
+          "label": "Public record",
+          "value": "Department acknowledgement advises that individual feedback will not be published"
+        },
+        {
+          "label": "Theme",
+          "value": "Preventative online safety, proportionate obligations, AI-enabled services, local and privacy-preserving architectures, small developers, open development, and practical control"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official consultation page",
+          "href": "https://www.infrastructure.gov.au/department/media/publications/exposure-draft-online-safety-amendment-digital-duty-care-bill-2026"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
     {
       "type": "Policy",
       "date": "Submitted 2026-09-04",
