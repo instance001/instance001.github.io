@@ -100,39 +100,23 @@
   "records": [
     {
       "type": "Policy",
-      "date": "Submitted 2026-09-12",
-      "datetime": "2026-09-12",
+      "date": "Published as submission 71",
+      "datetime": "2026-09-01",
       "featured": true,
-      "title": "Online Safety Amendment (Digital Duty of Care) Bill consultation submission",
-      "body": "FMI has submitted feedback on the Exposure Draft Online Safety Amendment (Digital Duty of Care) Bill 2026, supporting the proposed preventative, systems-based direction while arguing for practical proportionality for AI-enabled services, local and privacy-preserving architectures, small developers, open development, and responsibility that follows actual risk and practical control.",
-      "facts": [
-        {
-          "label": "Consultation",
-          "value": "Exposure Draft Online Safety Amendment (Digital Duty of Care) Bill 2026"
-        },
-        {
-          "label": "Department",
-          "value": "Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts"
-        },
-        {
-          "label": "Public record",
-          "value": "Department acknowledgement advises that individual feedback will not be published"
-        },
-        {
-          "label": "Theme",
-          "value": "Preventative online safety, proportionate obligations, AI-enabled services, local and privacy-preserving architectures, small developers, open development, and practical control"
-        }
-      ],
-      "links": [
-        {
-          "label": "Official consultation page",
-          "href": "https://www.infrastructure.gov.au/department/media/publications/exposure-draft-online-safety-amendment-digital-duty-care-bill-2026"
-        },
-        {
-          "label": "AI Fair-Go policy page",
-          "href": "ai-fair-go.html"
-        }
-      ]
+      "title": "Australian Senate inquiry into artificial intelligence and data centres",
+      "body": "FMI's submission to the Senate inquiry into artificial intelligence and data centres has been published by the committee as submission 71.",
+      "facts": [{"label": "Status", "value": "Published as submission 71"}, {"label": "Inquiry date", "value": "Referred 2026-05-13; submissions extended to 2026-09-01"}, {"label": "Theme", "value": "AI infrastructure, data centres, national capability, local/cloud choice, public-interest governance"}],
+      "links": [{"label": "Official submission 71 (PDF)", "href": "https://www.aph.gov.au/DocumentStore.ashx?id=99e6c7da-c860-473b-96c4-b41473055810&subId=797390"}, {"label": "Official inquiry page", "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P"}, {"label": "AI Fair-Go policy page", "href": "ai-fair-go.html"}]
+    },
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-08-29",
+      "datetime": "2026-08-29",
+      "featured": true,
+      "title": "Joint Select Committee on Artificial Intelligence inquiry submission",
+      "body": "FMI has submitted material to the Joint Select Committee on Artificial Intelligence inquiry. The acknowledgement from the Committee Secretariat records that the committee will consider the matters raised, and that submissions become committee documents before any public release decision.",
+      "facts": [{"label": "Status", "value": "Submission acknowledged 2026-08-29; public publication pending committee decision"}, {"label": "Committee", "value": "Joint Select Committee on Artificial Intelligence"}, {"label": "Theme", "value": "National AI policy, sovereign capability, adoption barriers, data sovereignty, workforce impacts, law, security, and social effects"}],
+      "links": [{"label": "Official inquiry page", "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Artificial_Intelligence"}, {"label": "AI Fair-Go policy page", "href": "ai-fair-go.html"}]
     },
     {
       "type": "Policy",
@@ -159,38 +143,6 @@
         {
           "label": "Official consultation page",
           "href": "https://consultations.ag.gov.au/rights-and-protections/privacy-reform/"
-        },
-        {
-          "label": "AI Fair-Go policy page",
-          "href": "ai-fair-go.html"
-        }
-      ]
-    },
-    {
-      "type": "Policy",
-      "date": "Submitted 2026-09-04",
-      "datetime": "2026-09-04",
-      "featured": true,
-      "title": "National civil preparedness and resilience inquiry submission",
-      "body": "FMI has placed a submission into the Parliamentary Joint Committee on Defence inquiry into Australia's national civil preparedness and resilience.",
-      "facts": [
-        {
-          "label": "Inquiry",
-          "value": "Inquiry into Australia's National Civil Preparedness and Resilience"
-        },
-        {
-          "label": "Committee",
-          "value": "Parliamentary Joint Committee on Defence"
-        },
-        {
-          "label": "Theme",
-          "value": "Civil preparedness, resilience, sovereign capability, infrastructure continuity, public coordination, and practical readiness"
-        }
-      ],
-      "links": [
-        {
-          "label": "Official inquiry page",
-          "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Parliamentary_Joint_Committee_on_Defence/Civilpreparedness"
         },
         {
           "label": "AI Fair-Go policy page",
@@ -235,6 +187,38 @@
       "date": "Submitted 2026-09-04",
       "datetime": "2026-09-04",
       "featured": true,
+      "title": "National civil preparedness and resilience inquiry submission",
+      "body": "FMI has placed a submission into the Parliamentary Joint Committee on Defence inquiry into Australia's national civil preparedness and resilience.",
+      "facts": [
+        {
+          "label": "Inquiry",
+          "value": "Inquiry into Australia's National Civil Preparedness and Resilience"
+        },
+        {
+          "label": "Committee",
+          "value": "Parliamentary Joint Committee on Defence"
+        },
+        {
+          "label": "Theme",
+          "value": "Civil preparedness, resilience, sovereign capability, infrastructure continuity, public coordination, and practical readiness"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official inquiry page",
+          "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Parliamentary_Joint_Committee_on_Defence/Civilpreparedness"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-09-04",
+      "datetime": "2026-09-04",
+      "featured": true,
       "title": "Digital Protections Framework submission",
       "body": "FMI has placed a submission into the Department of Employment and Workplace Relations Digital Protections Framework consultation, focused on meaningful human authority and accountable automation in employment services administration.",
       "facts": [
@@ -264,71 +248,13 @@
     },
     {
       "type": "Policy",
-      "date": "Published as submission 71",
-      "datetime": "2026-09-01",
+      "date": "Submitted 2026-09-12",
+      "datetime": "2026-09-12",
       "featured": true,
-      "title": "Australian Senate inquiry into artificial intelligence and data centres",
-      "body": "FMI's submission to the Senate inquiry into artificial intelligence and data centres has been published by the committee as submission 71.",
-      "facts": [
-        {
-          "label": "Status",
-          "value": "Published as submission 71"
-        },
-        {
-          "label": "Inquiry date",
-          "value": "Referred 2026-05-13; submissions extended to 2026-09-01"
-        },
-        {
-          "label": "Theme",
-          "value": "AI infrastructure, data centres, national capability, local/cloud choice, public-interest governance"
-        }
-      ],
-      "links": [
-        {
-          "label": "Official submission 71 (PDF)",
-          "href": "https://www.aph.gov.au/DocumentStore.ashx?id=99e6c7da-c860-473b-96c4-b41473055810&subId=797390"
-        },
-        {
-          "label": "Official inquiry page",
-          "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Senate/Environment_and_Communications/AIdatacentres48P"
-        },
-        {
-          "label": "AI Fair-Go policy page",
-          "href": "ai-fair-go.html"
-        }
-      ]
-    },
-    {
-      "type": "Policy",
-      "date": "Submitted 2026-08-29",
-      "datetime": "2026-08-29",
-      "featured": true,
-      "title": "Joint Select Committee on Artificial Intelligence inquiry submission",
-      "body": "FMI has submitted material to the Joint Select Committee on Artificial Intelligence inquiry. The acknowledgement from the Committee Secretariat records that the committee will consider the matters raised, and that submissions become committee documents before any public release decision.",
-      "facts": [
-        {
-          "label": "Status",
-          "value": "Submission acknowledged 2026-08-29; public publication pending committee decision"
-        },
-        {
-          "label": "Committee",
-          "value": "Joint Select Committee on Artificial Intelligence"
-        },
-        {
-          "label": "Theme",
-          "value": "National AI policy, sovereign capability, adoption barriers, data sovereignty, workforce impacts, law, security, and social effects"
-        }
-      ],
-      "links": [
-        {
-          "label": "Official inquiry page",
-          "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Artificial_Intelligence"
-        },
-        {
-          "label": "AI Fair-Go policy page",
-          "href": "ai-fair-go.html"
-        }
-      ]
+      "title": "Online Safety Amendment (Digital Duty of Care) Bill consultation submission",
+      "body": "FMI has submitted feedback on the Exposure Draft Online Safety Amendment (Digital Duty of Care) Bill 2026, supporting the proposed preventative, systems-based direction while arguing for practical proportionality for AI-enabled services, local and privacy-preserving architectures, small developers, open development, and responsibility that follows actual risk and practical control.",
+      "facts": [{"label": "Consultation", "value": "Exposure Draft Online Safety Amendment (Digital Duty of Care) Bill 2026"}, {"label": "Department", "value": "Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts"}, {"label": "Public record", "value": "Department acknowledgement advises that individual feedback will not be published"}, {"label": "Theme", "value": "Preventative online safety, proportionate obligations, AI-enabled services, local and privacy-preserving architectures, small developers, open development, and practical control"}],
+      "links": [{"label": "Official consultation page", "href": "https://www.infrastructure.gov.au/department/media/publications/exposure-draft-online-safety-amendment-digital-duty-care-bill-2026"}, {"label": "AI Fair-Go policy page", "href": "ai-fair-go.html"}]
     },
     {
       "type": "Policy framework",
