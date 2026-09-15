@@ -105,6 +105,38 @@
   "records": [
     {
       "type": "Policy",
+      "date": "Submitted 2026-09-16",
+      "datetime": "2026-09-16",
+      "featured": true,
+      "title": "Tasmanian data centre and AI infrastructure consultation submission",
+      "body": "FMI has submitted a written response to the Tasmanian Government consultation on Draft Expectations for Data Centres and AI Infrastructure Developers.",
+      "facts": [
+        {
+          "label": "Consultation",
+          "value": "Draft Expectations for Data Centres and AI Infrastructure Developers"
+        },
+        {
+          "label": "Jurisdiction",
+          "value": "Tasmanian Government"
+        },
+        {
+          "label": "Status",
+          "value": "Submission receipt confirmed 2026-09-16"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official consultation page",
+          "href": "https://engage.building.tas.gov.au/draft-expectations-data-centres-and-ai-infrastructure-developers"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
       "date": "Published as submission 71",
       "datetime": "2026-09-01",
       "featured": true,

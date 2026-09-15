@@ -178,7 +178,10 @@ async function externalLinkLooksReachable(href) {
 }
 
 function buildPublicRecordPage(data) {
-  const { page, records } = data;
+  const { page } = data;
+  const records = [...data.records].sort((left, right) =>
+    right.datetime.localeCompare(left.datetime),
+  );
 
   return `<!DOCTYPE html>
 <!-- Generated from data/public-record.json by scripts/generate-public-record.mjs. -->
