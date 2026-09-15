@@ -34,7 +34,7 @@
       {
         "date": "2026-01-18 onward",
         "title": "Scholarly publishing",
-        "body": "Live PhilPeople / PhilPapers publication list."
+        "body": "PhilPeople / PhilPapers, SSRN, and ORCID research surfaces."
       },
       {
         "date": "2026-07-11 onward",
@@ -58,6 +58,11 @@
         "value": "ORCID",
         "href": "https://orcid.org/0009-0007-5750-5236",
         "rel": "me"
+      },
+      {
+        "label": "Scholarly papers",
+        "value": "SSRN",
+        "href": "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=13165768"
       },
       {
         "label": "Public apps",
@@ -303,7 +308,13 @@
         "label": "ORCID profile",
         "href": "https://orcid.org/0009-0007-5750-5236",
         "rel": "me"
-      }
+      },
+      "links": [
+        {
+          "label": "SSRN author page",
+          "href": "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=13165768"
+        }
+      ]
     },
     {
       "type": "Open source",
