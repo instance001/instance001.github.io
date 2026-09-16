@@ -184,6 +184,12 @@ function buildPublicRecordPage(data) {
   );
   const scholarlyRecords = records.filter((record) => record.type === "Scholarly index");
   const ledgerRecords = records.filter((record) => record.type !== "Scholarly index");
+  const policyRecords = ledgerRecords.filter(
+    (record) => record.type === "Policy" || record.type === "Policy framework",
+  );
+  const otherRecords = ledgerRecords.filter(
+    (record) => record.type !== "Policy" && record.type !== "Policy framework",
+  );
 
   return `<!DOCTYPE html>
 <!-- Generated from data/public-record.json by scripts/generate-public-record.mjs. -->
@@ -239,7 +245,7 @@ ${page.badges.map(recordBadge).join("\n")}
           <h2>Public records and what they signal.</h2>
         </div>
         <div class="record-ledger">
-${ledgerRecords.map(recordEntry).join("\n\n")}
+${policyRecords.map(recordEntry).join("\n\n")}
         </div>
       </section>
 
@@ -253,7 +259,12 @@ ${scholarlyRecords.map(recordEntry).join("\n\n")}
         </div>
       </section>
 
-` : ""}      <section class="page-section record-footer-panel">
+` : ""}      <section class="page-section">
+        <div class="record-ledger">
+${otherRecords.map(recordEntry).join("\n\n")}
+        </div>
+      </section>
+
       <section class="page-section record-footer-panel">
         <div>
           <p class="eyebrow">${escapeHtml(page.footerPanel.eyebrow)}</p>
