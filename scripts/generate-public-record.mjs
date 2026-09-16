@@ -219,17 +219,6 @@ ${page.hero.actions.map((action) => `          ${buttonLink(action)}`).join("\n"
         </div>
       </section>
 
-${scholarlyRecords.length ? `      <section class="page-section">
-        <div class="section-heading">
-          <p class="eyebrow">Scholarly publishing</p>
-          <h2>Publications and researcher profile.</h2>
-        </div>
-        <div class="record-ledger">
-${scholarlyRecords.map(recordEntry).join("\n\n")}
-        </div>
-      </section>
-
-` : ""}      <section class="page-section" id="record-ledger">
       <section class="page-section record-summary-grid" aria-label="Public record summary">
 ${page.summary.map(summaryCard).join("\n")}
       </section>
@@ -254,6 +243,17 @@ ${ledgerRecords.map(recordEntry).join("\n\n")}
         </div>
       </section>
 
+${scholarlyRecords.length ? `      <section class="page-section">
+        <div class="section-heading">
+          <p class="eyebrow">Scholarly publishing</p>
+          <h2>Publications and researcher profile.</h2>
+        </div>
+        <div class="record-ledger">
+${scholarlyRecords.map(recordEntry).join("\n\n")}
+        </div>
+      </section>
+
+` : ""}      <section class="page-section record-footer-panel">
       <section class="page-section record-footer-panel">
         <div>
           <p class="eyebrow">${escapeHtml(page.footerPanel.eyebrow)}</p>
