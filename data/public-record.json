@@ -71,7 +71,7 @@
       },
       {
         "label": "Policy lane",
-        "value": "9 submissions + 1 framework",
+        "value": "10 submissions + 1 framework",
         "href": "ai-fair-go.html"
       },
       {
@@ -128,6 +128,38 @@
         {
           "label": "Official consultation page",
           "href": "https://participate.melbourne.vic.gov.au/data-centres/share-your-feedback"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-09-19",
+      "datetime": "2026-09-19",
+      "featured": true,
+      "title": "Australia's AI Consultation submission",
+      "body": "FMI has submitted feedback to the Australian Government's Office of AI consultation, Getting it right: Building AI infrastructure that works for Australia.",
+      "facts": [
+        {
+          "label": "Consultation",
+          "value": "Getting it right: Building AI infrastructure that works for Australia"
+        },
+        {
+          "label": "Department",
+          "value": "Department of the Prime Minister and Cabinet, Office of AI"
+        },
+        {
+          "label": "Theme",
+          "value": "Requirements for large data centres, conditions for AI training, and Australia's AI standards"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official consultation page",
+          "href": "https://www.pmc.gov.au/domestic-policy/office-ai/ai-infrastructure-consultation"
         },
         {
           "label": "AI Fair-Go policy page",
