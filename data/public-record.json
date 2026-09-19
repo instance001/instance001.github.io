@@ -71,7 +71,7 @@
       },
       {
         "label": "Policy lane",
-        "value": "8 submissions + 1 framework",
+        "value": "9 submissions + 1 framework",
         "href": "ai-fair-go.html"
       },
       {
@@ -103,6 +103,38 @@
     }
   },
   "records": [
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-09-19",
+      "datetime": "2026-09-19",
+      "featured": true,
+      "title": "City of Melbourne data centres and AI infrastructure consultation submission",
+      "body": "FMI has submitted feedback to the City of Melbourne consultation on its Draft Data Centre and AI Infrastructure Position Paper.",
+      "facts": [
+        {
+          "label": "Consultation",
+          "value": "Data Centres and AI Infrastructure Position Paper"
+        },
+        {
+          "label": "Jurisdiction",
+          "value": "City of Melbourne"
+        },
+        {
+          "label": "Theme",
+          "value": "Data centre planning, AI infrastructure, innovation, liveability, environmental considerations, and community expectations"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official consultation page",
+          "href": "https://participate.melbourne.vic.gov.au/data-centres/share-your-feedback"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
     {
       "type": "Policy",
       "date": "Submitted 2026-09-16",
