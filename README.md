@@ -1,5 +1,9 @@
 # Fractal Media Infrastructure Pages Site
 
+## License
+
+This repository is released under the [GNU Affero General Public License v3.0](LICENSE).
+
 This repository is the static GitHub Pages front door for Fractal Media Infrastructure.
 
 It is designed to present the organization as the umbrella public-interest entity behind:
