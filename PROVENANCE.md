@@ -31,4 +31,4 @@ GitHub API licence field at inventory time: `NOASSERTION`. This is a metadata ob
 
 ## Evidence and limitations
 
-Evidence: authenticated GitHub API metadata captured by the FMI provenance audit. Contribution, prior art, ownership, contributors, document licensing, relationships, releases, and publication status require human verification.
+Evidence: authenticated GitHub API metadata captured by the FMI provenance audit.
