@@ -285,12 +285,16 @@
     },
     {
       "type": "Policy",
-      "date": "Submitted 2026-09-04",
-      "datetime": "2026-09-04",
+      "date": "Published as submission 17",
+      "datetime": "2026-10-15",
       "featured": true,
       "title": "National civil preparedness and resilience inquiry submission",
-      "body": "FMI has placed a submission into the Parliamentary Joint Committee on Defence inquiry into Australia's national civil preparedness and resilience.",
+      "body": "FMI's submission to the Parliamentary Joint Committee on Defence inquiry into Australia's national civil preparedness and resilience has been accepted by the committee and published as submission 17.",
       "facts": [
+        {
+          "label": "Status",
+          "value": "Accepted and published 2026-10-15 as submission 17"
+        },
         {
           "label": "Inquiry",
           "value": "Inquiry into Australia's National Civil Preparedness and Resilience"
@@ -305,6 +309,10 @@
         }
       ],
       "links": [
+        {
+          "label": "Official submissions list (no. 17)",
+          "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Parliamentary_Joint_Committee_on_Defence/Civilpreparedness/Submissions"
+        },
         {
           "label": "Official inquiry page",
           "href": "https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Parliamentary_Joint_Committee_on_Defence/Civilpreparedness"
@@ -460,11 +468,11 @@
       "facts": [
         {
           "label": "Current packages",
-          "value": "io.instance001.chatmini and io.instance001.chattypet"
+          "value": "io.instance001.chatmini, io.instance001.chattypet, and io.instance001.chatty_venture"
         },
         {
           "label": "Play Console record",
-          "value": "2 production apps; Chatty-Pet last updated 2026-07-12; Chatty-Mini last updated 2026-07-19"
+          "value": "3 production apps; Chatty-Pet last updated 2026-07-12; Chatty-Mini last updated 2026-07-19; Chatty-Venture publicly available 2026-10-15"
         },
         {
           "label": "Public source dates",
@@ -487,6 +495,10 @@
         {
           "label": "Chatty-Pet privacy policy",
           "href": "privacy/chatty-pet.html"
+        },
+        {
+          "label": "Chatty-Venture privacy policy",
+          "href": "privacy/chatty-venture.html"
         }
       ]
     },
