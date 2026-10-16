@@ -105,6 +105,42 @@
   "records": [
     {
       "type": "Policy",
+      "date": "Submitted 2026-10-17",
+      "datetime": "2026-10-17",
+      "featured": true,
+      "title": "2026 National Research Infrastructure Roadmap Exposure Draft consultation submission",
+      "body": "FMI has submitted a response to the Department of Education's 2026 National Research Infrastructure Roadmap Exposure Draft consultation.",
+      "facts": [
+        {
+          "label": "Consultation",
+          "value": "2026 National Research Infrastructure Roadmap Exposure Draft Consultation"
+        },
+        {
+          "label": "Department",
+          "value": "Department of Education"
+        },
+        {
+          "label": "Status",
+          "value": "Submission receipt confirmed 2026-10-17"
+        },
+        {
+          "label": "Theme",
+          "value": "National research infrastructure planning, research capability, and long-term public-interest capacity"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official consultation page",
+          "href": "https://consultations.education.gov.au/2026-nri-roadmap-exposure-draft/survey"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
       "date": "Submitted 2026-09-19",
       "datetime": "2026-09-19",
       "featured": true,
