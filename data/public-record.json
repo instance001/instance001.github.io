@@ -108,6 +108,42 @@
       "date": "Submitted 2026-10-17",
       "datetime": "2026-10-17",
       "featured": true,
+      "title": "Open Government Partnership Fourth National Action Plan consultation submission",
+      "body": "FMI has submitted a response to the Attorney-General's Department consultation informing the development of Australia's Fourth National Action Plan for the Open Government Partnership.",
+      "facts": [
+        {
+          "label": "Consultation",
+          "value": "Open Government Partnership: Inform the development of Australia's Fourth National Action Plan"
+        },
+        {
+          "label": "Department",
+          "value": "Attorney-General's Department"
+        },
+        {
+          "label": "Status",
+          "value": "Submission receipt confirmed 2026-10-17"
+        },
+        {
+          "label": "Theme",
+          "value": "Open government, transparency, public participation, integrity, and accountable governance"
+        }
+      ],
+      "links": [
+        {
+          "label": "Official consultation page",
+          "href": "https://consultations.ag.gov.au/integrity/ogp-fnap/consultation/"
+        },
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-10-17",
+      "datetime": "2026-10-17",
+      "featured": true,
       "title": "2026 National Research Infrastructure Roadmap Exposure Draft consultation submission",
       "body": "FMI has submitted a response to the Department of Education's 2026 National Research Infrastructure Roadmap Exposure Draft consultation.",
       "facts": [
