@@ -71,7 +71,7 @@
       },
       {
         "label": "Policy lane",
-        "value": "12 submissions + 1 framework",
+        "value": "15 submissions + 1 framework",
         "href": "ai-fair-go.html"
       },
       {
@@ -103,6 +103,94 @@
     }
   },
   "records": [
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-11-17",
+      "datetime": "2026-11-17",
+      "featured": true,
+      "title": "FOI Guidelines Part 11 consultation submission",
+      "body": "FMI has submitted feedback on proposed changes to Part 11 of the FOI Guidelines, supporting clearer information about agency internal FOI complaint processes and recommending that third-party consultation notices include a plain-language contact and pathway for concerns.",
+      "facts": [
+        {
+          "label": "Consultation",
+          "value": "FOI Guidelines Part 11"
+        },
+        {
+          "label": "Status",
+          "value": "Submitted 2026-11-17"
+        },
+        {
+          "label": "Theme",
+          "value": "Third-party consultation, plain-language complaint pathways, transparency, and accessible public participation"
+        }
+      ],
+      "links": [
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-11-17",
+      "datetime": "2026-11-17",
+      "featured": true,
+      "title": "FOI Guidelines Part 12 consultation submission",
+      "body": "FMI has submitted feedback on the draft Part 12 FOI Guidelines, recommending an explicit public-interest scrutiny prompt in vexatious-applicant declarations and sample applications.",
+      "facts": [
+        {
+          "label": "Consultation",
+          "value": "FOI Guidelines Part 12"
+        },
+        {
+          "label": "Status",
+          "value": "Submitted 2026-11-17"
+        },
+        {
+          "label": "Theme",
+          "value": "Public scrutiny, legitimate repeated access requests, least-restrictive terms, and practical routes to information"
+        }
+      ],
+      "links": [
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
+    {
+      "type": "Policy",
+      "date": "Submitted 2026-11-17",
+      "datetime": "2026-11-17",
+      "featured": true,
+      "title": "Best practice guide on the adoption of AI in the workplace - draft submission",
+      "body": "FMI has submitted a public response to the Department of Employment and Workplace Relations consultation on its draft Best practice guide on the adoption of AI in the workplace.",
+      "facts": [
+        {
+          "label": "Consultation",
+          "value": "Best practice guide on the adoption of AI in the workplace - draft"
+        },
+        {
+          "label": "Department",
+          "value": "Department of Employment and Workplace Relations"
+        },
+        {
+          "label": "Status",
+          "value": "Public submission receipt recorded 2026-11-17; response ID sbm407c421c7823b1ca328d2"
+        },
+        {
+          "label": "Theme",
+          "value": "Workplace AI adoption, practical guidance, and public-interest governance"
+        }
+      ],
+      "links": [
+        {
+          "label": "AI Fair-Go policy page",
+          "href": "ai-fair-go.html"
+        }
+      ]
+    },
     {
       "type": "Policy",
       "date": "Submitted 2026-10-17",
@@ -401,7 +489,7 @@
       "datetime": "2026-09-04",
       "featured": true,
       "title": "Digital Protections Framework submission",
-      "body": "FMI has placed a submission into the Department of Employment and Workplace Relations Digital Protections Framework consultation, focused on meaningful human authority and accountable automation in employment services administration.",
+      "body": "FMI has placed a submission into the Department of Employment and Workplace Relations Digital Protections Framework consultation, focused on meaningful human authority and accountable automation in employment services administration. In response to FOI reference LEX 2639, FMI approved release of the submission in its entirety.",
       "facts": [
         {
           "label": "Framework",
@@ -410,6 +498,10 @@
         {
           "label": "Department",
           "value": "Department of Employment and Workplace Relations"
+        },
+        {
+          "label": "FOI release",
+          "value": "LEX 2639; FMI approved release of its submission in full on 2026-11-10"
         },
         {
           "label": "Theme",
